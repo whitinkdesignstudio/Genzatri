@@ -1,0 +1,5 @@
+# Robots.txt for GENZATRI 2026
+User-agent: *
+Allow: /
+
+Sitemap: https://genzatri.in/sitemap.xml

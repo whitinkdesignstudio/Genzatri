@@ -1,0 +1,97 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-maroon: #2D0A22;
+    --color-maroon-light: #3A1029;
+    --color-teal: #0B2E2A;
+    --color-teal-dark: #0C2E2C;
+    --color-dark: #0A060A;
+    --color-dark-card: #120A14;
+    --color-cream: #F3EAD9;
+    --color-cream-light: #F7F1E4;
+    --color-gold: #D4AF37;
+    --color-gold-light: #E5C158;
+    --color-gold-dark: #C9A227;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 70px;
+    font-family: 'Plus Jakarta Sans', 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
+  }
+
+  body, button, input, select, textarea, h1, h2, h3, h4, h5, h6, p, span, a, div, section {
+    font-family: 'Plus Jakarta Sans', 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
+  }
+
+  body {
+    background-color: var(--color-maroon);
+    color: var(--color-cream);
+    overflow-x: hidden;
+  }
+}
+
+/* Enforce Plus Jakarta Sans Globally Across All Font Classes */
+.font-serif-display,
+.font-serif-regal,
+.font-script-accent,
+.font-sans,
+.font-serif,
+.font-mono {
+  font-family: 'Plus Jakarta Sans', 'Outfit', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
+}
+
+/* Gold Gradient Utilities */
+.text-gold-gradient {
+  background: linear-gradient(135deg, #F5E096 0%, #D4AF37 50%, #AA820A 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bg-gold-gradient {
+  background: linear-gradient(135deg, #E5C158 0%, #D4AF37 50%, #C9A227 100%);
+}
+
+.border-gold-gradient {
+  border-image: linear-gradient(135deg, #F5E096 0%, #D4AF37 50%, #987508 100%) 1;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0A060A;
+}
+::-webkit-scrollbar-thumb {
+  background: #2D0A22;
+  border-radius: 4px;
+  border: 1px solid #D4AF37;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #D4AF37;
+}
+
+/* Custom Card Glassmorphism */
+.glass-card-dark {
+  background: rgba(18, 10, 20, 0.75);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(212, 175, 55, 0.2);
+}
+
+.glass-card-teal {
+  background: rgba(11, 46, 42, 0.75);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(212, 175, 55, 0.25);
+}
+
+/* Animation Utilities */
+@keyframes floatSlow {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-8px) rotate(1deg); }
+}
+
+.animate-float {
+  animation: floatSlow 6s ease-in-out infinite;
+}
