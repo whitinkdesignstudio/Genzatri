@@ -95,7 +95,7 @@ export const ARTISTS = [
     name: "MITESH BHATT & NIMA BHATT",
     date: "16 OCT",
     night: "NIGHT 1 · GRAND OPENING",
-    image: "/assets/images/artist_card_1_user.jpg",
+    image: "/assets/images/artist_mitesh_nima.jpg",
     genre: "Traditional Garba Fusion"
   },
   {
@@ -103,7 +103,7 @@ export const ARTISTS = [
     name: "NAMRATA SONI",
     date: "17 OCT",
     night: "NIGHT 2 · HIGH ENERGY",
-    image: "/assets/images/artist_card_2_user.jpg",
+    image: "/assets/images/artist_namrata_soni.jpg",
     genre: "Electrifying Folk Vocals"
   },
   {
@@ -111,7 +111,7 @@ export const ARTISTS = [
     name: "DR MITALI NAG",
     date: "18 OCT",
     night: "NIGHT 3 · SOULFUL BEATS",
-    image: "/assets/images/artist_card_3_user.jpg",
+    image: "/assets/images/artist_mitali_nag.jpg",
     genre: "Sufi & Classical Garba"
   },
   {
@@ -119,7 +119,7 @@ export const ARTISTS = [
     name: "VYAAS BROTHERS DHOL BAND",
     date: "19 OCT",
     night: "19 OCT · GRAND FINALE",
-    image: "/assets/images/artist_card_4_user.jpg",
+    image: "/assets/images/artist_vyaas_brothers.jpg",
     genre: "Traditional Gujarati Dhol"
   },
   {
