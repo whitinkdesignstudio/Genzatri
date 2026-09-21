@@ -204,9 +204,9 @@ export default function WhyChooseFeaturesBar() {
           </p>
         </div>
 
-        {/* 6 Feature Columns Arranged in Exactly 1 Single Row */}
-        <div className="w-full overflow-x-auto scrollbar-none pb-2">
-          <div className="min-w-[700px] md:min-w-0 flex items-start justify-between w-full">
+        {/* 6 Feature Columns Arranged Responsively */}
+        <div className="w-full">
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4 sm:gap-6 w-full items-start">
             {features.map((feature, index) => (
               <React.Fragment key={feature.id}>
                 {/* Feature Item Column */}
@@ -241,10 +241,10 @@ export default function WhyChooseFeaturesBar() {
                   </div>
                 </div>
 
-                {/* Vertical Gold Divider Line between Columns */}
+                {/* Vertical Gold Divider Line between Columns (Desktop only) */}
                 {index < features.length - 1 && (
                   <div 
-                    className="flex items-center justify-center self-center h-14 sm:h-16 md:h-20 w-px bg-gradient-to-b from-transparent via-[#D4AF37]/35 to-transparent pointer-events-none shrink-0" 
+                    className="hidden lg:flex items-center justify-center self-center h-14 sm:h-16 md:h-20 w-px bg-gradient-to-b from-transparent via-[#D4AF37]/35 to-transparent pointer-events-none shrink-0" 
                     aria-hidden="true" 
                   />
                 )}

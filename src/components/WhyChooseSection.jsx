@@ -5,6 +5,18 @@ import { FEATURES } from '../data/eventData';
 export default function WhyChooseSection() {
   return (
     <section id="about" className="py-16 md:py-24 px-4 sm:px-6 lg:px-8 bg-[#2D0A22] text-[#F3EAD9] border-b border-[#D4AF37]/30 relative overflow-hidden">
+      {/* Side Mandala Ornaments (Matching Artist Section Design) */}
+      <img
+        src="/assets/images/ChatGPT%20Image%20Sep%2016,%202026,%2012_35_35%20PM.png"
+        alt="Side Mandala Flourish"
+        className="absolute top-0 right-0 h-44 sm:h-64 md:h-80 w-auto object-contain pointer-events-none opacity-40 select-none z-0 filter brightness-125"
+      />
+      <img
+        src="/assets/images/ChatGPT%20Image%20Sep%2016,%202026,%2012_35_35%20PM.png"
+        alt="Side Mandala Flourish"
+        className="absolute top-0 left-0 h-44 sm:h-64 md:h-80 w-auto object-contain scale-x-[-1] pointer-events-none opacity-40 select-none z-0 filter brightness-125"
+      />
+
       <div className="max-w-7xl mx-auto space-y-12 text-center relative z-10">
         
         {/* Main Highlight Header */}
@@ -25,7 +37,7 @@ export default function WhyChooseSection() {
         </div>
 
         {/* 6 Feature Cards Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 gap-6 items-stretch">
+        <div className="grid grid-cols-1 xs:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 sm:gap-6 items-stretch">
           {FEATURES.map((feature) => (
             <Card
               key={feature.id}

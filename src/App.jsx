@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Header from './components/Header';
 import HeroSection from './components/HeroSection';
+import ScheduleTickerBar from './components/ScheduleTickerBar';
 import TicketPartnerBar from './components/TicketPartnerBar';
 import EventHighlightsBanner from './components/EventHighlightsBanner';
 import CountdownTimer from './components/CountdownTimer';
@@ -40,6 +41,9 @@ export default function App() {
         {/* 1. Hero Section (Matching Reference Image 1) */}
         <HeroSection onBookClick={() => handleOpenBooking()} />
 
+        {/* Continuous Rotating Schedule Slider Bar (Orchestra, Atrangi, Mandali) */}
+        <ScheduleTickerBar />
+
         {/* 2. Ticket Partner Bar (Matching Reference Image 2) */}
         <TicketPartnerBar />
 
@@ -58,7 +62,7 @@ export default function App() {
         {/* 7. Event Concept Section (Four Nights. One Dome. Endless Energy.) - Hidden for now */}
         {/* <EventConceptSection /> */}
 
-        {/* 8. Our Artists & Mandli (5 Dome Arch Cards including Rajesh Naik & Team) */}
+        {/* 8. Our Artists & Mandli (5 Dome Arch Cards including Rajesh Nayak & Team) */}
         <ArtistsSection />
 
         {/* 9. Moments From Our World Reels - Hidden for now */}

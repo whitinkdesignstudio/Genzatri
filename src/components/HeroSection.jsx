@@ -6,22 +6,34 @@ export default function HeroSection({ onBookClick }) {
       id="hero"
       className="relative w-full pt-16 sm:pt-20 bg-[#2D0A22] overflow-hidden flex flex-col justify-between"
     >
+      {/* Side Mandala Ornaments (Matching Artist Section Design) */}
+      <img
+        src="/assets/images/ChatGPT%20Image%20Sep%2016,%202026,%2012_35_35%20PM.png"
+        alt="Side Mandala Flourish"
+        className="absolute top-12 right-0 h-44 sm:h-64 md:h-80 w-auto object-contain pointer-events-none opacity-40 select-none z-0 filter brightness-125"
+      />
+      <img
+        src="/assets/images/ChatGPT%20Image%20Sep%2016,%202026,%2012_35_35%20PM.png"
+        alt="Side Mandala Flourish"
+        className="absolute top-12 left-0 h-44 sm:h-64 md:h-80 w-auto object-contain scale-x-[-1] pointer-events-none opacity-40 select-none z-0 filter brightness-125"
+      />
+
       {/* Ambient Radial Background Glow */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full max-w-7xl bg-radial from-[#59143D]/40 via-transparent to-transparent pointer-events-none" />
 
-      {/* Main Banner Container - 100% Full Width Edge-to-Edge with Perfect Top Alignment */}
-      <div className="relative w-full h-[300px] sm:h-[400px] md:h-[460px] lg:h-[480px] flex items-center justify-center bg-[#2D0A22] overflow-hidden">
+      {/* Main Banner Container - Uncropped Responsive Display */}
+      <div className="relative w-full flex items-center justify-center bg-[#2D0A22] overflow-hidden z-10">
         
-        {/* Full-width Banner Image (object-top guarantees the top GENZATRI logo is NEVER cropped) */}
+        {/* Full Banner Image (object-contain guarantees complete visibility without cropping) */}
         <img
           src="/assets/images/main_banner_hero.png"
           alt="GENZATRI AC DOME GARBA - From Sunset To Sunrise In AC Dome"
           loading="eager"
-          className="w-full h-full object-cover object-top block select-none"
+          className="w-full h-auto max-h-[85vh] object-contain block select-none"
         />
 
         {/* Bottom Soft Blend Gradient */}
-        <div className="absolute inset-x-0 bottom-0 h-6 bg-gradient-to-t from-[#2D0A22]/60 to-transparent pointer-events-none" />
+        <div className="absolute inset-x-0 bottom-0 h-8 bg-gradient-to-t from-[#2D0A22] via-[#2D0A22]/40 to-transparent pointer-events-none" />
       </div>
     </section>
   );

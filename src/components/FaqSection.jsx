@@ -54,7 +54,17 @@ export default function FaqSection() {
 
   return (
     <section id="faqs" className="py-16 md:py-24 px-4 sm:px-6 lg:px-8 bg-[#2D0A22] text-[#F3EAD9] border-b border-[#D4AF37]/30 relative overflow-hidden">
-      
+      {/* Side Mandala Ornaments (Matching Artist Section Design) */}
+      <img
+        src="/assets/images/ChatGPT%20Image%20Sep%2016,%202026,%2012_35_35%20PM.png"
+        alt="Side Mandala Flourish"
+        className="absolute top-0 right-0 h-44 sm:h-64 md:h-80 w-auto object-contain pointer-events-none opacity-40 select-none z-0 filter brightness-125"
+      />
+      <img
+        src="/assets/images/ChatGPT%20Image%20Sep%2016,%202026,%2012_35_35%20PM.png"
+        alt="Side Mandala Flourish"
+        className="absolute top-0 left-0 h-44 sm:h-64 md:h-80 w-auto object-contain scale-x-[-1] pointer-events-none opacity-40 select-none z-0 filter brightness-125"
+      />
 
       <div className="max-w-6xl mx-auto space-y-12 relative z-10">
         

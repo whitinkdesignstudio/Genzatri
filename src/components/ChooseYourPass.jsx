@@ -14,10 +14,22 @@ export default function ChooseYourPass({ onBookPass }) {
   };
 
   return (
-    <section id="tickets" className="py-12 md:py-20 px-4 sm:px-6 lg:px-8 bg-[#091F26] text-[#F3EAD9] relative overflow-hidden border-b border-[#D4AF37]/30">
+    <section id="tickets" className="py-12 md:py-20 px-4 sm:px-6 lg:px-8 bg-[#2D0A22] text-[#F3EAD9] relative overflow-hidden border-b border-[#D4AF37]/30">
       
+      {/* Side Mandala Ornaments (Matching Artist Section Design) */}
+      <img
+        src="/assets/images/ChatGPT%20Image%20Sep%2016,%202026,%2012_35_35%20PM.png"
+        alt="Side Mandala Flourish"
+        className="absolute top-0 right-0 h-44 sm:h-64 md:h-80 w-auto object-contain pointer-events-none opacity-40 select-none z-0 filter brightness-125"
+      />
+      <img
+        src="/assets/images/ChatGPT%20Image%20Sep%2016,%202026,%2012_35_35%20PM.png"
+        alt="Side Mandala Flourish"
+        className="absolute top-0 left-0 h-44 sm:h-64 md:h-80 w-auto object-contain scale-x-[-1] pointer-events-none opacity-40 select-none z-0 filter brightness-125"
+      />
+
       {/* Background Section Ambient Glow */}
-      <div className="absolute inset-0 bg-radial from-[#00E5FF]/5 via-transparent to-transparent pointer-events-none" />
+      <div className="absolute inset-0 bg-radial from-[#D4AF37]/5 via-transparent to-transparent pointer-events-none" />
 
       <div className="max-w-7xl mx-auto relative z-10">
         
@@ -41,7 +53,7 @@ export default function ChooseYourPass({ onBookPass }) {
             {/* Header Content */}
             <div className="relative z-10 space-y-1.5 text-center">
               <h3 className="font-serif-display text-2xl sm:text-3xl lg:text-4xl font-black tracking-wider text-[#F3EAD9] uppercase pt-1">
-                CHOOSE YOUR PASS
+                CHOOSE YOUR NAVRATRI VIBE
               </h3>
               <p className="text-xs sm:text-sm font-extrabold tracking-widest text-[#D4AF37] uppercase">
                 More people. More memories.
@@ -98,7 +110,7 @@ export default function ChooseYourPass({ onBookPass }) {
                     <div className="space-y-1.5">
                       {/* Sub-label */}
                       <span className="block text-[9px] font-bold tracking-[0.18em] text-[#D4AF37]/90 uppercase">
-                        {pass.id === 'solo' ? 'INDIVIDUAL' : pass.id === 'couple' ? 'DUO PAIR' : 'MANDALI'}
+                        {pass.id === 'solo' ? 'INDIVIDUAL' : pass.id === 'couple' ? 'DUO PAIR' : 'TRIBE PASS'}
                       </span>
 
                       {/* Pass Name */}
@@ -126,13 +138,13 @@ export default function ChooseYourPass({ onBookPass }) {
                         )}
                         {pass.id === 'couple' && (
                           <>
-                            <div className="flex items-center gap-1 text-[#F5E096]">✓ 2 Persons (M+F)</div>
-                            <div className="flex items-center gap-1 text-[#EAD0B3]/75">• Couple Arena Access</div>
+                            <div className="flex items-center gap-1 text-[#F5E096]">✓ 2 Persons Entry</div>
+                            <div className="flex items-center gap-1 text-[#EAD0B3]/75">• AC Dome Arena Access</div>
                           </>
                         )}
                         {pass.id === 'group' && (
                           <>
-                            <div className="flex items-center gap-1 text-[#F5E096]">✓ 20 Persons Mandali</div>
+                            <div className="flex items-center gap-1 text-[#F5E096]">✓ 20 Persons Tribe</div>
                             <div className="flex items-center gap-1 text-[#EAD0B3]/75">• Dedicated Group Entry</div>
                           </>
                         )}

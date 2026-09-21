@@ -40,7 +40,7 @@ export default function ArtistsSection() {
         </div>
 
         {/* 5 Premium Arch Jharokha Artist Frames */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6 items-stretch">
+        <div className="grid grid-cols-1 xs:grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4 sm:gap-6 items-stretch">
           {ARTISTS.map((artist) => (
             <div
               key={artist.id}

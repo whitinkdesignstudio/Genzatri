@@ -2,18 +2,18 @@ import React from 'react';
 
 export default function Logo({ size = 'md', className = '' }) {
   const heightClasses = {
-    sm: 'h-10 md:h-11',
-    md: 'h-12 md:h-14',
-    lg: 'h-14 md:h-16'
+    sm: 'h-11 sm:h-12 md:h-14',
+    md: 'h-14 sm:h-16 md:h-20',
+    lg: 'h-20 sm:h-24 md:h-28'
   };
 
   return (
     <div className={`inline-flex items-center group cursor-pointer ${className}`}>
-      {/* Full Brand Emblem Logo (Outside of any inner box wrapper per user request) */}
+      {/* High Definition Transparent Gold Emblem Logo */}
       <img
-        src="/assets/images/genzatri_logo_maroon.jpg"
-        alt="GENZATRI Official Logo"
-        className={`${heightClasses[size] || 'h-12 md:h-14'} w-auto object-contain rounded-md transform transition-transform duration-300 group-hover:scale-105`}
+        src="/assets/images/genzatri_logo_gold_transparent.png"
+        alt="GENZATRI AC DOME GARBA Logo"
+        className={`${heightClasses[size] || 'h-14 sm:h-16 md:h-20'} w-auto object-contain transform transition-transform duration-300 group-hover:scale-105 filter drop-shadow-[0_2px_12px_rgba(212,175,55,0.4)]`}
       />
     </div>
   );

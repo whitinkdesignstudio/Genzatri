@@ -26,21 +26,21 @@ export const PASSES = [
   },
   {
     id: "couple",
-    name: "COUPLE PASS",
-    stubLabel: "COUPLE",
+    name: "2 PERSON ENTRY",
+    stubLabel: "2 PERSON",
     price: 1799,
     formattedPrice: "₹1,799",
-    banner: "OFFICIAL COUPLE ENTRY PASS",
-    description: "Two Hearts One Dandiya Beat",
+    banner: "OFFICIAL 2 PERSON ENTRY PASS",
+    description: "Entry for 2 Persons",
   },
   {
     id: "group",
-    name: "GROUP PASS (20 PEOPLE)",
-    stubLabel: "GROUP",
+    name: "YOUR TRIBE PASS (20 PEOPLE)",
+    stubLabel: "TRIBE",
     price: 16999,
     formattedPrice: "₹16,999",
-    banner: "SPECIAL MANDALI GROUP PASS",
-    description: "Bigger Circle Bigger Celebrations",
+    banner: "SPECIAL YOUR TRIBE PASS",
+    description: "Bigger Tribe Bigger Celebrations",
   }
 ];
 
@@ -59,7 +59,7 @@ export const FEATURES = [
   },
   {
     id: 2,
-    title: "5,000+ KHELIYAS",
+    title: "8,000+ KHELIYAS",
     subtitle: "Bigger energy. Bigger vibes.",
     image: "/assets/images/artist_card_3_user.jpg"
   },
@@ -124,11 +124,11 @@ export const ARTISTS = [
   },
   {
     id: 5,
-    name: "RAJESH NAIK & TEAM",
+    name: "RAJESH NAYAK & TEAM",
     date: "16 - 19 OCT",
-    night: "MANDLI SPECIAL · ALL 4 DAYS",
+    night: "TRIBE SPECIAL · ALL 4 DAYS",
     image: "/assets/images/artist_card_5_user.jpg",
-    genre: "Authentic Gujarati Mandli Garba"
+    genre: "Authentic Gujarati Garba"
   }
 ];
 
@@ -197,7 +197,7 @@ export const GALLERY_PHOTOS = [
   {
     id: 4,
     image: "/assets/images/gallery_4.jpg",
-    title: "Mandli Celebration"
+    title: "Tribe Celebration"
   },
   {
     id: 5,
@@ -220,12 +220,12 @@ export const FAQS = [
   {
     id: 2,
     question: "Is the Garba venue fully air-conditioned?",
-    answer: "Yes! GENZATRI is held inside Gujarat's largest state-of-the-art Air-Conditioned Dome Arena, keeping all 5,000+ Kheliyas cool and comfortable all night long."
+    answer: "Yes! GENZATRI is held inside Gujarat's largest state-of-the-art Air-Conditioned Dome Arena, keeping all 8,000+ Kheliyas cool and comfortable all night long."
   },
   {
     id: 3,
     question: "What ticket pass options are available?",
-    answer: "We offer Solo Passes (₹999), Couple Passes (₹1,799), and Special Mandali Group Passes for 20 people (₹17,980). Passes are available on BookMyShow, MiPass, and AllEvents."
+    answer: "We offer Solo Passes (₹999), 2 Person Entry Passes (₹1,799), and Special Your Tribe Passes for 20 people (₹16,999). Passes are available on BookMyShow, MiPass, and AllEvents."
   },
   {
     id: 4,
