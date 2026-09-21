@@ -59,8 +59,8 @@ export default function Header({ onBookClick }) {
         {/* Far Right: ORGANISED BY Organizers Logos */}
         <div className="flex items-center space-x-4">
           <div className="hidden sm:flex items-center gap-3 pl-2 sm:pl-4 border-l border-[#D4AF37]/30">
-            <span className="text-[9px] sm:text-[10px] font-black tracking-[0.2em] text-[#D4AF37] uppercase leading-tight text-right">
-              ORGANISED<br />BY
+            <span className="text-[9px] sm:text-[10px] font-black tracking-[0.2em] text-[#D4AF37] uppercase leading-tight text-right whitespace-nowrap">
+              ORGANISED BY
             </span>
             <div className="bg-white/95 px-3 sm:px-4 py-1.5 rounded-xl shadow-md border border-[#D4AF37]/50 flex items-center gap-3">
               {/* Shree Balaji Events Logo */}

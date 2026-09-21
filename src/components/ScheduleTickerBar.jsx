@@ -13,7 +13,7 @@ export default function ScheduleTickerBar() {
       )
     },
     {
-      label: '12:00 – 2:30 – Atrangi',
+      label: '12:00 – 2:30 – Atrangi Band',
       subtitle: 'Bollywood Garba & High Fusion',
       badgeColor: 'from-[#F5E096] via-[#E5C158] to-[#D4AF37]',
       icon: (

@@ -102,52 +102,52 @@ export default function Footer() {
                   href="https://in.bookmyshow.com"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-white hover:bg-white px-2.5 sm:px-4 py-2 rounded-xl shadow-md border border-[#D4AF37]/60 hover:border-[#D4AF37] hover:scale-105 transition-all duration-200 h-10 sm:h-12 flex items-center justify-center w-full"
+                  className="bg-white hover:bg-white px-2.5 sm:px-4 py-2 rounded-xl shadow-md border border-[#D4AF37]/60 hover:border-[#D4AF37] hover:scale-105 transition-all duration-200 h-11 sm:h-13 flex items-center justify-center w-full"
                   title="Book tickets on BookMyShow"
                 >
                   <img 
-                    src="/assets/images/logo_bookmyshow_orig_trans.png" 
+                    src="/assets/images/logo_bookmyshow_perfect.png" 
                     alt="BookMyShow" 
-                    className="h-5 sm:h-7 w-auto max-w-full object-contain block select-none"
+                    className="h-6 sm:h-8 w-auto max-w-[90%] max-h-[85%] object-contain block select-none"
                   />
                 </a>
                 <a
                   href="https://meepass.in"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-white hover:bg-white px-2.5 sm:px-4 py-2 rounded-xl shadow-md border border-[#D4AF37]/60 hover:border-[#D4AF37] hover:scale-105 transition-all duration-200 h-10 sm:h-12 flex items-center justify-center w-full"
+                  className="bg-white hover:bg-white px-2.5 sm:px-4 py-2 rounded-xl shadow-md border border-[#D4AF37]/60 hover:border-[#D4AF37] hover:scale-105 transition-all duration-200 h-11 sm:h-13 flex items-center justify-center w-full"
                   title="Book passes on MiPass"
                 >
                   <img 
-                    src="/assets/images/logo_mepass_orig_trans.png" 
+                    src="/assets/images/logo_mepass_perfect.png" 
                     alt="MiPass" 
-                    className="h-5 sm:h-7 w-auto max-w-full object-contain block select-none"
+                    className="h-6 sm:h-8 w-auto max-w-[90%] max-h-[85%] object-contain block select-none"
                   />
                 </a>
                 <a
                   href="https://allevents.in"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-white hover:bg-white px-2.5 sm:px-4 py-2 rounded-xl shadow-md border border-[#D4AF37]/60 hover:border-[#D4AF37] hover:scale-105 transition-all duration-200 h-10 sm:h-12 flex items-center justify-center w-full"
+                  className="bg-white hover:bg-white px-2.5 sm:px-4 py-2 rounded-xl shadow-md border border-[#D4AF37]/60 hover:border-[#D4AF37] hover:scale-105 transition-all duration-200 h-11 sm:h-13 flex items-center justify-center w-full"
                   title="Book tickets on AllEvents"
                 >
                   <img 
-                    src="/assets/images/logo_allevents_orig_trans.png" 
+                    src="/assets/images/logo_allevents_horizontal.png" 
                     alt="AllEvents" 
-                    className="h-5 sm:h-7 w-auto max-w-full object-contain block select-none"
+                    className="h-6 sm:h-8 w-auto max-w-[90%] max-h-[85%] object-contain block select-none"
                   />
                 </a>
                 <a
                   href="https://zomato.com"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-white hover:bg-white px-2.5 sm:px-4 py-2 rounded-xl shadow-md border border-[#D4AF37]/60 hover:border-[#D4AF37] hover:scale-105 transition-all duration-200 h-10 sm:h-12 flex items-center justify-center w-full"
+                  className="bg-white hover:bg-white px-2 sm:px-3 py-1.5 rounded-xl shadow-md border border-[#D4AF37]/60 hover:border-[#D4AF37] hover:scale-105 transition-all duration-200 h-11 sm:h-13 flex items-center justify-center w-full"
                   title="Book on District by Zomato"
                 >
                   <img 
-                    src="/assets/images/logo_district_orig_trans.png" 
+                    src="/assets/images/logo_district_perfect.png" 
                     alt="District by Zomato" 
-                    className="h-5 sm:h-7 w-auto max-w-full object-contain block select-none"
+                    className="h-8 sm:h-10 md:h-11 w-auto max-w-[95%] max-h-[92%] object-contain block select-none transform scale-110"
                   />
                 </a>
               </div>

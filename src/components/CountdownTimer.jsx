@@ -48,13 +48,6 @@ export default function CountdownTimer() {
 
         {/* 1. Gold Typography Header */}
         <div className="space-y-2 text-center">
-          <div className="inline-flex items-center gap-2 px-4 py-1 rounded-full bg-[#D4AF37]/15 border border-[#D4AF37]/40 mb-1">
-            <span className="w-2 h-2 rounded-full bg-[#D4AF37] animate-pulse" />
-            <span className="text-[10px] sm:text-xs font-black tracking-[0.25em] text-[#F5E096] uppercase">
-              GENZATRI 2026 FESTIVAL
-            </span>
-          </div>
-
           <h2 className="font-serif-display text-xl sm:text-3xl md:text-4xl lg:text-[44px] font-black tracking-[0.06em] sm:tracking-[0.1em] text-transparent bg-clip-text bg-gradient-to-r from-[#F5E096] via-[#D4AF37] to-[#F5E096] uppercase drop-shadow-[0_2px_14px_rgba(212,175,55,0.35)]">
             BOLLYWOOD THEME • AC DOME GARBA
           </h2>

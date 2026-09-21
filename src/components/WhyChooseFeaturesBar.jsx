@@ -189,8 +189,9 @@ export default function WhyChooseFeaturesBar() {
               <div className="w-1.5 h-1.5 rotate-45 bg-[#D4AF37] ml-0.5" />
             </div>
 
-            <h2 className="font-serif-display text-xl sm:text-3xl md:text-4xl font-black text-[#F3EAD9] tracking-[0.2em] sm:tracking-[0.25em] uppercase drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)]">
-              WHY CHOOSE GENZATRI?
+            <h2 className="font-serif-display text-xl sm:text-3xl md:text-4xl font-black text-[#F3EAD9] tracking-[0.15em] sm:tracking-[0.25em] uppercase drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)] leading-tight text-center">
+              <span className="whitespace-nowrap block sm:inline">WHY CHOOSE</span>
+              <span className="whitespace-nowrap block sm:inline sm:ml-3">GENZATRI?</span>
             </h2>
 
             <div className="flex items-center">

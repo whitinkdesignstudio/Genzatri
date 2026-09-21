@@ -2,9 +2,9 @@ import React from 'react';
 
 export default function Logo({ size = 'md', className = '' }) {
   const heightClasses = {
-    sm: 'h-11 sm:h-12 md:h-14',
-    md: 'h-14 sm:h-16 md:h-20',
-    lg: 'h-20 sm:h-24 md:h-28'
+    sm: 'h-12 sm:h-14 md:h-16',
+    md: 'h-16 sm:h-20 md:h-24',
+    lg: 'h-24 sm:h-28 md:h-36'
   };
 
   return (

@@ -21,14 +21,15 @@ export default function WhyChooseSection() {
         
         {/* Main Highlight Header */}
         <div className="space-y-2 max-w-3xl mx-auto">
-          <div className="inline-flex items-center justify-center gap-4">
-            <div className="w-10 sm:w-16 h-px bg-gradient-to-r from-transparent to-[#D4AF37]" />
-            <div className="w-2 h-2 rotate-45 bg-[#D4AF37]" />
-            <h2 className="font-serif-display text-3xl sm:text-5xl lg:text-6xl font-black text-[#F3EAD9] tracking-tight">
-              WHY CHOOSE GENZATRI?
+          <div className="inline-flex items-center justify-center gap-2 sm:gap-4">
+            <div className="hidden sm:block w-10 sm:w-16 h-px bg-gradient-to-r from-transparent to-[#D4AF37]" />
+            <div className="hidden sm:block w-2 h-2 rotate-45 bg-[#D4AF37]" />
+            <h2 className="font-serif-display text-2xl xs:text-3xl sm:text-5xl lg:text-6xl font-black text-[#F3EAD9] tracking-tight text-center leading-tight">
+              <span className="whitespace-nowrap block sm:inline">WHY CHOOSE</span>
+              <span className="whitespace-nowrap block sm:inline sm:ml-3">GENZATRI?</span>
             </h2>
-            <div className="w-2 h-2 rotate-45 bg-[#D4AF37]" />
-            <div className="w-10 sm:w-16 h-px bg-gradient-to-l from-transparent to-[#D4AF37]" />
+            <div className="hidden sm:block w-2 h-2 rotate-45 bg-[#D4AF37]" />
+            <div className="hidden sm:block w-10 sm:w-16 h-px bg-gradient-to-l from-transparent to-[#D4AF37]" />
           </div>
 
           <p className="text-xs sm:text-sm font-extrabold text-[#D4AF37] uppercase tracking-[0.2em] pt-1">
