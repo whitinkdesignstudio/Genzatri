@@ -50,12 +50,12 @@ export default function ArtistsSection() {
               <div className="w-full relative rounded-t-[90px] rounded-b-2xl overflow-hidden border-2 border-[#D4AF37]/40 group-hover:border-[#D4AF37] shadow-2xl bg-gradient-to-b from-[#27071B] via-[#1D0514] to-[#12030D] transition-all duration-300 p-2">
 
                 {/* Arch Photo Area */}
-                <div className={`relative w-full aspect-[4/5] rounded-t-[80px] rounded-b-xl overflow-hidden flex items-center justify-center ${artist.id === 6 ? 'bg-gradient-to-b from-[#FFFFFF] via-[#FAF6F0] to-[#EBE4D5] p-2.5' : 'bg-[#0C1B22]'}`}>
+                <div className="relative w-full aspect-[4/5] rounded-t-[80px] rounded-b-xl overflow-hidden bg-[#0C1B22] flex items-center justify-center">
                   <img
                     src={artist.image}
                     alt={artist.name}
                     loading="lazy"
-                    className={`w-full h-full ${artist.id === 6 ? 'object-contain filter drop-shadow-md' : 'object-cover object-center'} group-hover:scale-105 transition-transform duration-500`}
+                    className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
                   />
                 </div>
 

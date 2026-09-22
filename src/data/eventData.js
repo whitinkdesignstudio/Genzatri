@@ -141,7 +141,7 @@ export const ARTISTS = [
     name: "ATRANGI BAND",
     date: "16 – 19 OCT",
     night: "ALL 4 NIGHTS · 12:00 AM – 2:30 AM",
-    image: "/assets/images/artist_atrangi_band.png",
+    image: "/assets/images/artist_atrangi_band_poster.jpg",
     genre: "Bollywood Garba & High Fusion"
   }
 ];
