@@ -46,14 +46,12 @@ export const PASSES = [
 
 export const TICKET_URLS = {
   bookmyshow: "https://in.bookmyshow.com/activities/genzatri-ahmedabad-s-ac-dome/ET00517258",
-  district: "https://www.district.in/events/genzatri-ahmedabads-ac-dome-oct16-2026-buy-tickets",
-  meepass: "https://meepass.in"
+  district: "https://www.district.in/events/genzatri-ahmedabads-ac-dome-oct16-2026-buy-tickets"
 };
 
 export const TICKET_PARTNERS = [
   { name: "bookmyshow", label: "BookMyShow", url: TICKET_URLS.bookmyshow, color: "#EC5E2A" },
-  { name: "district", label: "District by Zomato", url: TICKET_URLS.district, color: "#9C27B0" },
-  { name: "meepass", label: "MiPass", url: TICKET_URLS.meepass, color: "#120A14" }
+  { name: "district", label: "District by Zomato", url: TICKET_URLS.district, color: "#9C27B0" }
 ];
 
 export const FEATURES = [
@@ -231,7 +229,7 @@ export const FAQS = [
   {
     id: 3,
     question: "What ticket pass options are available?",
-    answer: "We offer Solo Passes (₹999), 2 Person Entry Passes (₹1,799), and Special Your Tribe Passes for 20 people (₹16,999). Passes are available on BookMyShow, District, and MiPass."
+    answer: "We offer Solo Passes (₹999), 2 Person Entry Passes (₹1,799), and Special Your Tribe Passes for 20 people (₹16,999). Passes are available on BookMyShow and District."
   },
   {
     id: 4,

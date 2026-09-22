@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import confetti from 'canvas-confetti';
-import { X, Check } from 'lucide-react';
-import { PASSES, EVENT_DETAILS, TICKET_URLS } from '../data/eventData';
+import { X, Check, Ticket, ShieldCheck } from 'lucide-react';
+import { PASSES, EVENT_DETAILS } from '../data/eventData';
 
 export default function BookingModal({ isOpen, onClose, selectedPass = null }) {
   const [activePass, setActivePass] = useState(selectedPass || PASSES[0]);
@@ -32,7 +32,7 @@ export default function BookingModal({ isOpen, onClose, selectedPass = null }) {
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-md animate-fadeIn">
       <div className="relative w-full max-w-lg bg-[#120A14] border-2 border-[#D4AF37] rounded-3xl p-6 sm:p-8 shadow-2xl shadow-[#D4AF37]/20 text-[#F3EAD9] overflow-hidden">
-        
+
         {/* Close Button */}
         <button
           onClick={resetAndClose}
@@ -64,11 +64,10 @@ export default function BookingModal({ isOpen, onClose, selectedPass = null }) {
                     key={pass.id}
                     type="button"
                     onClick={() => setActivePass(pass)}
-                    className={`py-2 px-3 rounded-xl text-xs font-extrabold border transition-all text-center ${
-                      currentPass.id === pass.id
+                    className={`py-2 px-3 rounded-xl text-xs font-extrabold border transition-all text-center ${currentPass.id === pass.id
                         ? 'bg-[#D4AF37] text-[#0A060A] border-[#D4AF37] shadow-md'
                         : 'bg-[#2D0A22] text-[#F3EAD9] border-[#D4AF37]/30 hover:border-[#D4AF37]'
-                    }`}
+                      }`}
                   >
                     {pass.name.split(' ')[0]}
                   </button>
@@ -130,33 +129,24 @@ export default function BookingModal({ isOpen, onClose, selectedPass = null }) {
               <label className="block text-xs font-extrabold tracking-wider text-[#D4AF37] uppercase text-center">
                 BOOK DIRECTLY ON OFFICIAL PLATFORMS:
               </label>
-              <div className="grid grid-cols-3 gap-2">
+              <div className="grid grid-cols-2 gap-3">
                 <a
                   href={TICKET_URLS.bookmyshow}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-white hover:bg-[#FFF5D6] py-2 px-2.5 rounded-xl border border-[#D4AF37] flex items-center justify-center h-10 transition-transform hover:scale-105"
+                  className="bg-white hover:bg-[#FFF5D6] py-2.5 px-3 rounded-xl border border-[#D4AF37] flex items-center justify-center h-12 transition-transform hover:scale-105"
                   title="Book on BookMyShow"
                 >
-                  <img src="/assets/images/logo_bookmyshow_perfect.png" alt="BookMyShow" className="h-5.5 w-auto object-contain" />
+                  <img src="/assets/images/logo_bookmyshow_perfect.png" alt="BookMyShow" className="h-7 w-auto object-contain" />
                 </a>
                 <a
                   href={TICKET_URLS.district}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-white hover:bg-[#FFF5D6] py-2 px-2.5 rounded-xl border border-[#D4AF37] flex items-center justify-center h-10 transition-transform hover:scale-105"
+                  className="bg-white hover:bg-[#FFF5D6] py-2.5 px-3 rounded-xl border border-[#D4AF37] flex items-center justify-center h-12 transition-transform hover:scale-105"
                   title="Book on District by Zomato"
                 >
-                  <img src="/assets/images/logo_district_perfect.png" alt="District" className="h-7 w-auto object-contain" />
-                </a>
-                <a
-                  href={TICKET_URLS.meepass}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="bg-white hover:bg-[#FFF5D6] py-2 px-2.5 rounded-xl border border-[#D4AF37] flex items-center justify-center h-10 transition-transform hover:scale-105"
-                  title="Book on MiPass"
-                >
-                  <img src="/assets/images/logo_mepass_perfect.png" alt="MiPass" className="h-5.5 w-auto object-contain" />
+                  <img src="/assets/images/logo_district_perfect.png" alt="District" className="h-8 w-auto object-contain" />
                 </a>
               </div>
             </div>
@@ -202,7 +192,7 @@ export default function BookingModal({ isOpen, onClose, selectedPass = null }) {
 
             <button
               onClick={resetAndClose}
-              className="w-full py-3 text-xs font-extrabold tracking-widest uppercase bg-[#D4AF37] text-[#0A060A] rounded-xl hover:brightness-110 cursor-pointer"
+              className="w-full py-3 text-xs font-extrabold tracking-widest uppercase bg-[#D4AF37] text-[#0A060A] rounded-xl hover:brightness-110"
             >
               DONE & CLOSE
             </button>
