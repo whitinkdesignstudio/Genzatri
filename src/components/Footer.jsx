@@ -124,7 +124,7 @@ export default function Footer() {
               {/* 2x2 Compact Grid of Partner Logos */}
               <div className="grid grid-cols-2 gap-2.5 pt-1">
                 <a
-                  href="https://in.bookmyshow.com"
+                  href="https://in.bookmyshow.com/activities/garba-ni-ramjhat-2026/ET00513987"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-white hover:bg-white px-2.5 sm:px-4 py-2 rounded-xl shadow-md border border-[#D4AF37]/60 hover:border-[#D4AF37] hover:scale-105 transition-all duration-200 h-11 sm:h-13 flex items-center justify-center w-full"
@@ -150,7 +150,7 @@ export default function Footer() {
                   />
                 </a>
                 <a
-                  href="https://allevents.in"
+                  href="https://allevents.in/ahmedabad/garba-ni-ramjhat-and-premium-mandli-2026-tickets/80001384296339"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-white hover:bg-white px-2.5 sm:px-4 py-2 rounded-xl shadow-md border border-[#D4AF37]/60 hover:border-[#D4AF37] hover:scale-105 transition-all duration-200 h-11 sm:h-13 flex items-center justify-center w-full"
@@ -163,7 +163,7 @@ export default function Footer() {
                   />
                 </a>
                 <a
-                  href="https://zomato.com"
+                  href="https://www.district.in/events/garba-ni-ramjhat-and-premium-mandli-2026-buy-tickets"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-white hover:bg-white px-2 sm:px-3 py-1.5 rounded-xl shadow-md border border-[#D4AF37]/60 hover:border-[#D4AF37] hover:scale-105 transition-all duration-200 h-11 sm:h-13 flex items-center justify-center w-full"

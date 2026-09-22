@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import confetti from 'canvas-confetti';
-import { X, Check, Ticket, ShieldCheck } from 'lucide-react';
-import { PASSES, EVENT_DETAILS } from '../data/eventData';
+import { X, Check } from 'lucide-react';
+import { PASSES, EVENT_DETAILS, TICKET_URLS } from '../data/eventData';
 
 export default function BookingModal({ isOpen, onClose, selectedPass = null }) {
   const [activePass, setActivePass] = useState(selectedPass || PASSES[0]);
@@ -125,15 +125,58 @@ export default function BookingModal({ isOpen, onClose, selectedPass = null }) {
               </span>
             </div>
 
+            {/* Official Partner Links */}
+            <div className="space-y-2 pt-2 border-t border-[#D4AF37]/20">
+              <label className="block text-xs font-extrabold tracking-wider text-[#D4AF37] uppercase text-center">
+                BOOK DIRECTLY ON OFFICIAL PLATFORMS:
+              </label>
+              <div className="grid grid-cols-2 gap-2">
+                <a
+                  href={TICKET_URLS.bookmyshow}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-white hover:bg-[#FFF5D6] py-2 px-3 rounded-xl border border-[#D4AF37] flex items-center justify-center h-10 transition-transform hover:scale-105"
+                  title="Book on BookMyShow"
+                >
+                  <img src="/assets/images/logo_bookmyshow_perfect.png" alt="BookMyShow" className="h-6 w-auto object-contain" />
+                </a>
+                <a
+                  href={TICKET_URLS.allevents}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-white hover:bg-[#FFF5D6] py-2 px-3 rounded-xl border border-[#D4AF37] flex items-center justify-center h-10 transition-transform hover:scale-105"
+                  title="Book on AllEvents"
+                >
+                  <img src="/assets/images/logo_allevents_horizontal.png" alt="AllEvents" className="h-6 w-auto object-contain" />
+                </a>
+                <a
+                  href={TICKET_URLS.district}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-white hover:bg-[#FFF5D6] py-2 px-3 rounded-xl border border-[#D4AF37] flex items-center justify-center h-10 transition-transform hover:scale-105"
+                  title="Book on District by Zomato"
+                >
+                  <img src="/assets/images/logo_district_perfect.png" alt="District" className="h-8 w-auto object-contain" />
+                </a>
+                <a
+                  href={TICKET_URLS.meepass}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-white hover:bg-[#FFF5D6] py-2 px-3 rounded-xl border border-[#D4AF37] flex items-center justify-center h-10 transition-transform hover:scale-105"
+                  title="Book on MiPass"
+                >
+                  <img src="/assets/images/logo_mepass_perfect.png" alt="MiPass" className="h-6 w-auto object-contain" />
+                </a>
+              </div>
+            </div>
+
             {/* Confirm Button */}
             <button
               onClick={handleConfirmBooking}
-              className="w-full py-4 text-xs font-extrabold tracking-widest uppercase text-[#0A060A] bg-gradient-to-r from-[#F5E096] via-[#D4AF37] to-[#C9A227] rounded-xl shadow-xl hover:brightness-110 transition-all duration-300"
+              className="w-full py-4 text-xs font-extrabold tracking-widest uppercase text-[#0A060A] bg-gradient-to-r from-[#F5E096] via-[#D4AF37] to-[#C9A227] rounded-xl shadow-xl hover:brightness-110 transition-all duration-300 cursor-pointer"
             >
-              PROCEED TO SECURE PAYMENT
+              RESERVE PASS NOW
             </button>
-
-
           </div>
         ) : (
           /* Booking Confirmed Success Screen */
@@ -168,7 +211,7 @@ export default function BookingModal({ isOpen, onClose, selectedPass = null }) {
 
             <button
               onClick={resetAndClose}
-              className="w-full py-3 text-xs font-extrabold tracking-widest uppercase bg-[#D4AF37] text-[#0A060A] rounded-xl hover:brightness-110"
+              className="w-full py-3 text-xs font-extrabold tracking-widest uppercase bg-[#D4AF37] text-[#0A060A] rounded-xl hover:brightness-110 cursor-pointer"
             >
               DONE & CLOSE
             </button>

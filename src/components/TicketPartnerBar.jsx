@@ -34,7 +34,7 @@ export default function TicketPartnerBar() {
 
           {/* BookMyShow */}
           <a 
-            href="https://in.bookmyshow.com" 
+            href="https://in.bookmyshow.com/activities/garba-ni-ramjhat-2026/ET00513987" 
             target="_blank" 
             rel="noopener noreferrer"
             className="bg-white px-3 sm:px-5 py-2.5 sm:py-3.5 rounded-xl sm:rounded-2xl shadow-xl border-2 border-[#D4AF37]/60 hover:border-[#D4AF37] hover:scale-105 transition-all duration-300 flex items-center justify-center h-14 sm:h-16 md:h-18 cursor-pointer w-full"
@@ -49,7 +49,7 @@ export default function TicketPartnerBar() {
 
           {/* AllEvents */}
           <a 
-            href="https://allevents.in" 
+            href="https://allevents.in/ahmedabad/garba-ni-ramjhat-and-premium-mandli-2026-tickets/80001384296339" 
             target="_blank" 
             rel="noopener noreferrer"
             className="bg-white px-3 sm:px-5 py-2.5 sm:py-3.5 rounded-xl sm:rounded-2xl shadow-xl border-2 border-[#D4AF37]/60 hover:border-[#D4AF37] hover:scale-105 transition-all duration-300 flex items-center justify-center h-14 sm:h-16 md:h-18 cursor-pointer w-full"
@@ -64,7 +64,7 @@ export default function TicketPartnerBar() {
 
           {/* District by Zomato */}
           <a 
-            href="https://zomato.com" 
+            href="https://www.district.in/events/garba-ni-ramjhat-and-premium-mandli-2026-buy-tickets" 
             target="_blank" 
             rel="noopener noreferrer"
             className="bg-white px-2 sm:px-4 py-2 sm:py-3 rounded-xl sm:rounded-2xl shadow-xl border-2 border-[#D4AF37]/60 hover:border-[#D4AF37] hover:scale-105 transition-all duration-300 flex items-center justify-center h-14 sm:h-16 md:h-18 cursor-pointer w-full"

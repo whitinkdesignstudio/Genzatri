@@ -44,10 +44,18 @@ export const PASSES = [
   }
 ];
 
+export const TICKET_URLS = {
+  bookmyshow: "https://in.bookmyshow.com/activities/garba-ni-ramjhat-2026/ET00513987",
+  allevents: "https://allevents.in/ahmedabad/garba-ni-ramjhat-and-premium-mandli-2026-tickets/80001384296339",
+  district: "https://www.district.in/events/garba-ni-ramjhat-and-premium-mandli-2026-buy-tickets",
+  meepass: "https://meepass.in"
+};
+
 export const TICKET_PARTNERS = [
-  { name: "bookmyshow", label: "bookmyshow", color: "#EC5E2A" },
-  { name: "allevents", label: "allevents.in", color: "#0096FF" },
-  { name: "meepass", label: "MiPass", color: "#120A14" }
+  { name: "bookmyshow", label: "BookMyShow", url: TICKET_URLS.bookmyshow, color: "#EC5E2A" },
+  { name: "allevents", label: "AllEvents.in", url: TICKET_URLS.allevents, color: "#0096FF" },
+  { name: "district", label: "District by Zomato", url: TICKET_URLS.district, color: "#9C27B0" },
+  { name: "meepass", label: "MiPass", url: TICKET_URLS.meepass, color: "#120A14" }
 ];
 
 export const FEATURES = [
