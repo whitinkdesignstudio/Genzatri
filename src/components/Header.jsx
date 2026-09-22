@@ -29,8 +29,8 @@ export default function Header({ onBookClick }) {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
 
         {/* Left: Unified Brand Logo */}
-        <a href="#hero" className="flex items-center">
-          <Logo size="md" />
+        <a href="#hero" className="flex items-center py-0.5">
+          <Logo size="sm" />
         </a>
 
         {/* Center Nav Links including BOOK TICKETS */}
