@@ -94,23 +94,23 @@ export default function Footer() {
                 ORGANISED BY
               </h4>
               <div>
-                <div className="inline-flex items-center justify-center bg-white/95 px-5 py-2.5 sm:px-6 sm:py-3 rounded-2xl shadow-lg border border-[#D4AF37]/60 gap-4 sm:gap-6">
-                  {/* Shree Balaji Events Logo - High prominence */}
+                <div className="inline-flex items-center justify-center bg-white/95 px-3.5 sm:px-4 py-2 rounded-xl shadow-md border border-[#D4AF37]/60 h-11 sm:h-13 gap-3 sm:gap-4">
+                  {/* Shree Balaji Events Logo - Sized to match BookMyShow logo */}
                   <img
                     src="/assets/images/organizer_shree_balaji_clean.png"
                     alt="Shree Balaji Events LLP"
-                    className="h-14 sm:h-16 md:h-18 w-auto object-contain transition-transform duration-200 hover:scale-105"
+                    className="h-7 sm:h-9 w-auto object-contain max-h-[85%] transition-transform duration-200 hover:scale-105 select-none"
                     title="Shree Balaji Events LLP"
                   />
 
                   {/* Vertical Divider */}
-                  <div className="h-11 sm:h-13 w-[1.5px] bg-[#D4AF37]/50 shrink-0" />
+                  <div className="h-6 sm:h-8 w-[1px] bg-[#D4AF37]/40 shrink-0" />
 
-                  {/* Astha Marketing Logo - High prominence */}
+                  {/* Astha Marketing Logo - Sized to match BookMyShow logo */}
                   <img
                     src="/assets/images/organizer_astha_clean.png"
                     alt="Astha Marketing Events Advertising"
-                    className="h-9 sm:h-11 md:h-12 w-auto object-contain transition-transform duration-200 hover:scale-105"
+                    className="h-6 sm:h-8 w-auto object-contain max-h-[85%] transition-transform duration-200 hover:scale-105 select-none"
                     title="Astha Marketing Events Advertising"
                   />
                 </div>
