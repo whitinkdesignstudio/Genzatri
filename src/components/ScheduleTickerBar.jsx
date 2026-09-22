@@ -1,37 +1,25 @@
 import React from 'react';
+import { Music, Guitar, Crown } from 'lucide-react';
 
 export default function ScheduleTickerBar() {
   const scheduleItems = [
     {
-      label: '12:00 – Orchestra',
+      label: '8:00 PM – 12:00 AM – ORCHESTRA',
       subtitle: 'Live Traditional Symphonies',
       badgeColor: 'from-[#F5E096] via-[#D4AF37] to-[#C9A227]',
-      icon: (
-        <svg className="w-4 h-4 sm:w-5 sm:h-5 text-[#0A060A]" viewBox="0 0 24 24" fill="currentColor">
-          <path d="M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h6V3h-6z" />
-        </svg>
-      )
+      icon: <Music className="w-4 h-4 sm:w-5 sm:h-5 text-[#0A060A]" />
     },
     {
-      label: '12:00 – 2:30 – Atrangi Band',
+      label: '12:00 AM – 2:30 AM – ATRANGI BAND',
       subtitle: 'Bollywood Garba & High Fusion',
       badgeColor: 'from-[#F5E096] via-[#E5C158] to-[#D4AF37]',
-      icon: (
-        <svg className="w-4 h-4 sm:w-5 sm:h-5 text-[#0A060A]" viewBox="0 0 24 24" fill="currentColor">
-          <path d="M12 2l2.4 7.4H22l-6 4.6 2.3 7.2L12 16.6l-6.3 4.6 2.3-7.2-6-4.6h7.6z" />
-        </svg>
-      )
+      icon: <Guitar className="w-4 h-4 sm:w-5 sm:h-5 text-[#0A060A]" />
     },
     {
-      label: '2:30 – 5:00 – Mandali',
+      label: '2:30 AM – 5:00 AM – PREMIUM MANDALI',
       subtitle: 'Concentric Raas Circles',
       badgeColor: 'from-[#F5E096] via-[#D4AF37] to-[#AA820A]',
-      icon: (
-        <svg className="w-4 h-4 sm:w-5 sm:h-5 text-[#0A060A]" viewBox="0 0 24 24" fill="currentColor">
-          <ellipse cx="12" cy="7" rx="7" ry="3" />
-          <path d="M5 7v8c0 1.6 3.1 3 7 3s7-1.4 7-3V7" />
-        </svg>
-      )
+      icon: <Crown className="w-4 h-4 sm:w-5 sm:h-5 text-[#0A060A]" />
     }
   ];
 

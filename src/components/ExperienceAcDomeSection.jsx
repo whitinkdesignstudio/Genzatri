@@ -40,16 +40,16 @@ export default function ExperienceAcDomeSection() {
             {/* Performance Schedule Highlights */}
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-2.5 pt-2">
               <div className="bg-[#1C0416] p-3 rounded-xl border border-[#D4AF37]/40 shadow-sm hover:border-[#D4AF37] transition-colors">
-                <span className="text-[10px] font-black text-[#D4AF37] uppercase tracking-wider block">12:00 AM</span>
+                <span className="text-[10px] font-black text-[#D4AF37] uppercase tracking-wider block">8:00 PM – 12:00 AM</span>
                 <span className="text-xs sm:text-sm font-black text-[#F3EAD9] uppercase block mt-0.5">Orchestra</span>
               </div>
               <div className="bg-[#1C0416] p-3 rounded-xl border border-[#D4AF37]/40 shadow-sm hover:border-[#D4AF37] transition-colors">
-                <span className="text-[10px] font-black text-[#D4AF37] uppercase tracking-wider block">12:00 – 2:30 AM</span>
+                <span className="text-[10px] font-black text-[#D4AF37] uppercase tracking-wider block">12:00 AM – 2:30 AM</span>
                 <span className="text-xs sm:text-sm font-black text-[#F3EAD9] uppercase block mt-0.5">Atrangi Band</span>
               </div>
               <div className="bg-[#1C0416] p-3 rounded-xl border border-[#D4AF37]/40 shadow-sm hover:border-[#D4AF37] transition-colors">
-                <span className="text-[10px] font-black text-[#D4AF37] uppercase tracking-wider block">2:30 – 5:00 AM</span>
-                <span className="text-xs sm:text-sm font-black text-[#F3EAD9] uppercase block mt-0.5">Mandali</span>
+                <span className="text-[10px] font-black text-[#D4AF37] uppercase tracking-wider block">2:30 AM – 5:00 AM</span>
+                <span className="text-xs sm:text-sm font-black text-[#F3EAD9] uppercase block mt-0.5">Premium Mandali</span>
               </div>
             </div>
 
