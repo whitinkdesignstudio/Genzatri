@@ -50,7 +50,17 @@ export default function App() {
         {/* 4. Venue & Location Full Width Banner */}
         <DateVenueBanner />
 
-        {/* 5. Experience AC Dome Garba Section (Matching User Reference) */}
+        {/* 5. GENZATRI AC Dome Garba Main Banner (Placed directly above Experience AC Dome Garba Section) */}
+        <div className="relative w-full bg-[#2D0A22] overflow-hidden z-10 border-t border-[#D4AF37]/30">
+          <img
+            src="/assets/images/main_banner_hero.png"
+            alt="GENZATRI AC DOME GARBA - From Sunset To Sunrise In AC Dome"
+            loading="eager"
+            className="w-full h-auto block select-none"
+          />
+        </div>
+
+        {/* 6. Experience AC Dome Garba Section (Matching User Reference) */}
         <ExperienceAcDomeSection />
 
         {/* 6. Choose Your Pass (Inner pass banner, consistent gold buttons) */}
