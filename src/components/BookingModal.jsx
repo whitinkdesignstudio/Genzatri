@@ -127,27 +127,46 @@ export default function BookingModal({ isOpen, onClose, selectedPass = null }) {
             {/* Official Partner Links */}
             <div className="space-y-2 pt-2 border-t border-[#D4AF37]/20">
               <label className="block text-xs font-extrabold tracking-wider text-[#D4AF37] uppercase text-center">
-                BOOK DIRECTLY ON OFFICIAL PLATFORMS:
+                OFFICIAL PARTNER PLATFORMS:
               </label>
-              <div className="grid grid-cols-2 gap-3">
+              <div className="grid grid-cols-2 gap-2">
+                {/* BookMyShow (Active) */}
                 <a
                   href={TICKET_URLS.bookmyshow}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-white hover:bg-[#FFF5D6] py-2.5 px-3 rounded-xl border border-[#D4AF37] flex items-center justify-center h-12 transition-transform hover:scale-105"
+                  className="bg-white hover:bg-[#FFF5D6] py-2 px-3 rounded-xl border border-[#D4AF37] flex items-center justify-center h-11 transition-transform hover:scale-105 cursor-pointer"
                   title="Book on BookMyShow"
                 >
-                  <img src="/assets/images/logo_bookmyshow_perfect.png" alt="BookMyShow" className="h-7 w-auto object-contain" />
+                  <img src="/assets/images/logo_bookmyshow_perfect.png" alt="BookMyShow" className="h-6 w-auto object-contain" />
                 </a>
+
+                {/* District by Zomato (Active) */}
                 <a
                   href={TICKET_URLS.district}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-white hover:bg-[#FFF5D6] py-2.5 px-3 rounded-xl border border-[#D4AF37] flex items-center justify-center h-12 transition-transform hover:scale-105"
+                  className="bg-white hover:bg-[#FFF5D6] py-2 px-3 rounded-xl border border-[#D4AF37] flex items-center justify-center h-11 transition-transform hover:scale-105 cursor-pointer"
                   title="Book on District by Zomato"
                 >
-                  <img src="/assets/images/logo_district_perfect.png" alt="District" className="h-8 w-auto object-contain" />
+                  <img src="/assets/images/logo_district_perfect.png" alt="District" className="h-7.5 w-auto object-contain" />
                 </a>
+
+                {/* MiPass (Visual Logo) */}
+                <div 
+                  className="bg-white py-2 px-3 rounded-xl border border-[#D4AF37]/50 flex items-center justify-center h-11 opacity-90 select-none"
+                  title="MiPass Partner"
+                >
+                  <img src="/assets/images/logo_mepass_perfect.png" alt="MiPass" className="h-6 w-auto object-contain" />
+                </div>
+
+                {/* AllEvents (Visual Logo) */}
+                <div 
+                  className="bg-white py-2 px-3 rounded-xl border border-[#D4AF37]/50 flex items-center justify-center h-11 opacity-90 select-none"
+                  title="AllEvents Partner"
+                >
+                  <img src="/assets/images/logo_allevents_horizontal.png" alt="AllEvents" className="h-6 w-auto object-contain" />
+                </div>
               </div>
             </div>
 

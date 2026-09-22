@@ -93,37 +93,64 @@ export default function Footer() {
                 TICKETS AVAILABLE ON
               </h4>
               <p className="text-xs text-[#F3EAD9]/85 font-medium leading-relaxed">
-                Available on <span className="text-[#D4AF37] font-bold">BookMyShow</span> & <span className="text-[#D4AF37] font-bold">District</span>
+                Available on <span className="text-[#D4AF37] font-bold">BookMyShow</span>, <span className="text-[#D4AF37] font-bold">District</span>, <span className="text-[#D4AF37] font-bold">MiPass</span> & <span className="text-[#D4AF37] font-bold">AllEvents</span>
               </p>
 
-              {/* 2 Partner Logos Grid */}
-              <div className="grid grid-cols-2 gap-3 pt-1">
+              {/* 2x2 Grid of 4 Partner Logos */}
+              <div className="grid grid-cols-2 gap-2.5 pt-1">
+                {/* BookMyShow (Active Link) */}
                 <a
                   href="https://in.bookmyshow.com/activities/genzatri-ahmedabad-s-ac-dome/ET00517258"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-white hover:bg-white px-3 sm:px-4 py-2 rounded-xl shadow-md border border-[#D4AF37]/60 hover:border-[#D4AF37] hover:scale-105 transition-all duration-200 h-11 sm:h-13 flex items-center justify-center w-full"
+                  className="bg-white hover:bg-white px-2.5 sm:px-4 py-2 rounded-xl shadow-md border border-[#D4AF37]/60 hover:border-[#D4AF37] hover:scale-105 transition-all duration-200 h-11 sm:h-13 flex items-center justify-center w-full cursor-pointer"
                   title="Book tickets on BookMyShow"
                 >
-                  <img
-                    src="/assets/images/logo_bookmyshow_perfect.png"
-                    alt="BookMyShow"
+                  <img 
+                    src="/assets/images/logo_bookmyshow_perfect.png" 
+                    alt="BookMyShow" 
                     className="h-6 sm:h-8 w-auto max-w-[90%] max-h-[85%] object-contain block select-none"
                   />
                 </a>
+
+                {/* District by Zomato (Active Link) */}
                 <a
                   href="https://www.district.in/events/genzatri-ahmedabads-ac-dome-oct16-2026-buy-tickets"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-white hover:bg-white px-3 sm:px-4 py-1.5 rounded-xl shadow-md border border-[#D4AF37]/60 hover:border-[#D4AF37] hover:scale-105 transition-all duration-200 h-11 sm:h-13 flex items-center justify-center w-full"
+                  className="bg-white hover:bg-white px-2 sm:px-3 py-1.5 rounded-xl shadow-md border border-[#D4AF37]/60 hover:border-[#D4AF37] hover:scale-105 transition-all duration-200 h-11 sm:h-13 flex items-center justify-center w-full cursor-pointer"
                   title="Book on District by Zomato"
                 >
-                  <img
-                    src="/assets/images/logo_district_perfect.png"
-                    alt="District by Zomato"
+                  <img 
+                    src="/assets/images/logo_district_perfect.png" 
+                    alt="District by Zomato" 
                     className="h-8 sm:h-10 md:h-11 w-auto max-w-[95%] max-h-[92%] object-contain block select-none transform scale-110"
                   />
                 </a>
+
+                {/* MEE PASS (Visual Logo Only) */}
+                <div 
+                  className="bg-white px-2.5 sm:px-4 py-2 rounded-xl shadow-md border border-[#D4AF37]/40 h-11 sm:h-13 flex items-center justify-center w-full select-none"
+                  title="MiPass Partner"
+                >
+                  <img 
+                    src="/assets/images/logo_mepass_perfect.png" 
+                    alt="MiPass" 
+                    className="h-6 sm:h-8 w-auto max-w-[90%] max-h-[85%] object-contain block"
+                  />
+                </div>
+
+                {/* AllEvents (Visual Logo Only) */}
+                <div 
+                  className="bg-white px-2.5 sm:px-4 py-2 rounded-xl shadow-md border border-[#D4AF37]/40 h-11 sm:h-13 flex items-center justify-center w-full select-none"
+                  title="AllEvents Partner"
+                >
+                  <img 
+                    src="/assets/images/logo_allevents_horizontal.png" 
+                    alt="AllEvents" 
+                    className="h-6 sm:h-8 w-auto max-w-[90%] max-h-[85%] object-contain block"
+                  />
+                </div>
               </div>
             </div>
 
