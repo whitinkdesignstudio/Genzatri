@@ -93,8 +93,8 @@ export default function Footer() {
               <h4 className="text-xs font-black tracking-[0.25em] text-[#D4AF37] uppercase">
                 ORGANISED BY
               </h4>
-              <div className="bg-white/95 px-3.5 py-2 rounded-xl shadow-md border border-[#D4AF37]/50 flex items-center justify-around gap-2 sm:gap-3">
-                {/* Shree Balaji Events Logo - Height boosted to 48px-56px so circular detail & text are sharp & legible */}
+              <div className="bg-white/95 px-4 py-2 rounded-xl shadow-md border border-[#D4AF37]/50 flex items-center justify-center gap-4 sm:gap-5">
+                {/* Shree Balaji Events Logo */}
                 <div className="flex items-center justify-center p-0.5">
                   <img
                     src="/assets/images/organizer_shree_balaji_clean.png"
