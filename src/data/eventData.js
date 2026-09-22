@@ -135,6 +135,14 @@ export const ARTISTS = [
     night: "TRIBE SPECIAL · ALL 4 DAYS",
     image: "/assets/images/artist_card_5_user.jpg",
     genre: "Authentic Gujarati Garba"
+  },
+  {
+    id: 6,
+    name: "ATRANGI BAND",
+    date: "16 – 19 OCT",
+    night: "ALL 4 NIGHTS · 12:00 AM – 2:30 AM",
+    image: "/assets/images/artist_atrangi_band.png",
+    genre: "Bollywood Garba & High Fusion"
   }
 ];
 

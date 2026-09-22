@@ -39,8 +39,8 @@ export default function ArtistsSection() {
           </p>
         </div>
 
-        {/* 5 Premium Arch Jharokha Artist Frames */}
-        <div className="grid grid-cols-1 xs:grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4 sm:gap-6 items-stretch">
+        {/* 6 Premium Arch Jharokha Artist Frames */}
+        <div className="grid grid-cols-1 xs:grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 sm:gap-4 lg:gap-5 items-stretch">
           {ARTISTS.map((artist) => (
             <div
               key={artist.id}
@@ -50,12 +50,12 @@ export default function ArtistsSection() {
               <div className="w-full relative rounded-t-[90px] rounded-b-2xl overflow-hidden border-2 border-[#D4AF37]/40 group-hover:border-[#D4AF37] shadow-2xl bg-gradient-to-b from-[#27071B] via-[#1D0514] to-[#12030D] transition-all duration-300 p-2">
 
                 {/* Arch Photo Area */}
-                <div className="relative w-full aspect-[4/5] rounded-t-[80px] rounded-b-xl overflow-hidden bg-[#0C1B22] flex items-center justify-center">
+                <div className={`relative w-full aspect-[4/5] rounded-t-[80px] rounded-b-xl overflow-hidden flex items-center justify-center ${artist.id === 6 ? 'bg-gradient-to-b from-[#FFFFFF] via-[#FAF6F0] to-[#EBE4D5] p-2.5' : 'bg-[#0C1B22]'}`}>
                   <img
                     src={artist.image}
                     alt={artist.name}
                     loading="lazy"
-                    className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500"
+                    className={`w-full h-full ${artist.id === 6 ? 'object-contain filter drop-shadow-md' : 'object-cover object-center'} group-hover:scale-105 transition-transform duration-500`}
                   />
                 </div>
 
@@ -63,10 +63,10 @@ export default function ArtistsSection() {
 
               {/* Date & Artist Name Details Below Image Layout */}
               <div className="pt-3 text-center space-y-1 w-full px-1 flex flex-col justify-start min-h-[75px]">
-                <span className="block font-serif-display font-black text-sm sm:text-base text-[#D4AF37] tracking-wider">
+                <span className="block font-serif-display font-black text-xs sm:text-sm text-[#D4AF37] tracking-wider">
                   {artist.date}
                 </span>
-                <h3 className="font-serif-display font-black text-sm sm:text-base text-[#F3EAD9] leading-snug group-hover:text-[#D4AF37] transition-colors">
+                <h3 className="font-serif-display font-black text-xs sm:text-sm text-[#F3EAD9] leading-snug group-hover:text-[#D4AF37] transition-colors">
                   {artist.name}
                 </h3>
               </div>
