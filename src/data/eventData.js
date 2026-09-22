@@ -53,10 +53,9 @@ export const TICKET_URLS = {
 };
 
 export const TICKET_PARTNERS = [
-  { name: "bookmyshow", label: "BookMyShow", url: TICKET_URLS.bookmyshow, color: "#EC5E2A", active: true },
-  { name: "district", label: "District by Zomato", url: TICKET_URLS.district, color: "#9C27B0", active: true },
   { name: "meepass", label: "MiPass", url: null, color: "#120A14", active: false },
-  { name: "allevents", label: "AllEvents.in", url: null, color: "#0096FF", active: false }
+  { name: "bookmyshow", label: "BookMyShow", url: TICKET_URLS.bookmyshow, color: "#EC5E2A", active: true },
+  { name: "district", label: "District by Zomato", url: TICKET_URLS.district, color: "#9C27B0", active: true }
 ];
 
 export const FEATURES = [

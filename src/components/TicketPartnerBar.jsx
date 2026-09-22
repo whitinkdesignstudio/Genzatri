@@ -15,9 +15,21 @@ export default function TicketPartnerBar() {
         {/* Separator 1 */}
         <div className="hidden lg:block w-px h-12 bg-[#D4AF37]/35" />
 
-        {/* 4 Partner Logo Cards Grid */}
-        <div className="w-full lg:w-auto grid grid-cols-2 sm:grid-cols-4 items-center gap-3 sm:gap-4 md:gap-6">
-          {/* BookMyShow (Active Link) */}
+        {/* 3 Partner Logo Cards Grid (MiPass first, BookMyShow second, District third) */}
+        <div className="w-full lg:w-auto grid grid-cols-3 items-center gap-3 sm:gap-4 md:gap-6">
+          {/* 1. MEE PASS (Visual Logo Only - 1st) */}
+          <div 
+            className="bg-white px-3 sm:px-5 py-2.5 sm:py-3.5 rounded-xl sm:rounded-2xl shadow-xl border-2 border-[#D4AF37]/40 flex items-center justify-center h-14 sm:h-16 md:h-18 w-full select-none"
+            title="MiPass Partner"
+          >
+            <img 
+              src="/assets/images/logo_mepass_perfect.png" 
+              alt="MiPass" 
+              className="h-7 sm:h-9 md:h-11 w-auto max-w-[90%] max-h-[85%] object-contain block"
+            />
+          </div>
+
+          {/* 2. BookMyShow (Active Link - 2nd) */}
           <a 
             href="https://in.bookmyshow.com/activities/genzatri-ahmedabad-s-ac-dome/ET00517258" 
             target="_blank" 
@@ -32,7 +44,7 @@ export default function TicketPartnerBar() {
             />
           </a>
 
-          {/* District by Zomato (Active Link) */}
+          {/* 3. District by Zomato (Active Link - 3rd) */}
           <a 
             href="https://www.district.in/events/genzatri-ahmedabads-ac-dome-oct16-2026-buy-tickets" 
             target="_blank" 
@@ -46,30 +58,6 @@ export default function TicketPartnerBar() {
               className="h-10 sm:h-13 md:h-15 w-auto max-w-[95%] max-h-[92%] object-contain block select-none transform scale-110"
             />
           </a>
-
-          {/* MEE PASS (Visual Logo Only) */}
-          <div 
-            className="bg-white px-3 sm:px-5 py-2.5 sm:py-3.5 rounded-xl sm:rounded-2xl shadow-xl border-2 border-[#D4AF37]/40 flex items-center justify-center h-14 sm:h-16 md:h-18 w-full select-none"
-            title="MiPass Partner"
-          >
-            <img 
-              src="/assets/images/logo_mepass_perfect.png" 
-              alt="MEE PASS" 
-              className="h-7 sm:h-9 md:h-11 w-auto max-w-[90%] max-h-[85%] object-contain block"
-            />
-          </div>
-
-          {/* AllEvents (Visual Logo Only) */}
-          <div 
-            className="bg-white px-3 sm:px-5 py-2.5 sm:py-3.5 rounded-xl sm:rounded-2xl shadow-xl border-2 border-[#D4AF37]/40 flex items-center justify-center h-14 sm:h-16 md:h-18 w-full select-none"
-            title="AllEvents Partner"
-          >
-            <img 
-              src="/assets/images/logo_allevents_horizontal.png" 
-              alt="AllEvents" 
-              className="h-7 sm:h-9 md:h-11 w-auto max-w-[90%] max-h-[85%] object-contain block"
-            />
-          </div>
         </div>
 
       </div>

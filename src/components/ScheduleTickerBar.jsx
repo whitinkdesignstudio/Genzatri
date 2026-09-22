@@ -50,10 +50,6 @@ export default function ScheduleTickerBar() {
                 <span className="font-serif-display text-xs sm:text-sm md:text-base font-black tracking-wider text-[#F5E096] uppercase drop-shadow-sm">
                   {item.label}
                 </span>
-
-                <span className="hidden md:inline-block text-[11px] font-semibold text-[#F3EAD9]/70 tracking-wide">
-                  • {item.subtitle}
-                </span>
               </div>
 
               {/* Gold Star Divider */}
