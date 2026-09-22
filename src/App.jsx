@@ -44,9 +44,6 @@ export default function App() {
         {/* Continuous Rotating Schedule Slider Bar (Orchestra, Atrangi, Mandali) */}
         <ScheduleTickerBar />
 
-        {/* 2. Ticket Partner Bar (Matching Reference Image 2) */}
-        <TicketPartnerBar />
-
         {/* 3. Countdown Timer & Event Highlights (Merged Royal Banner) */}
         <CountdownTimer />
 
@@ -58,6 +55,9 @@ export default function App() {
 
         {/* 6. Choose Your Pass (Inner pass banner, consistent gold buttons) */}
         <ChooseYourPass onBookPass={(pass) => handleOpenBooking(pass)} />
+
+        {/* 7. Ticket Partner Bar (Placed right below CHOOSE YOUR NAVRATRI VIBE) */}
+        <TicketPartnerBar />
 
         {/* 7. Event Concept Section (Four Nights. One Dome. Endless Energy.) - Hidden for now */}
         {/* <EventConceptSection /> */}
