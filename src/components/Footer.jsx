@@ -93,26 +93,24 @@ export default function Footer() {
               <h4 className="text-xs font-black tracking-[0.25em] text-[#D4AF37] uppercase">
                 ORGANISED BY
               </h4>
-              <div className="bg-white/95 px-4 py-2 rounded-xl shadow-md border border-[#D4AF37]/50 flex items-center justify-center gap-4 sm:gap-5">
-                {/* Shree Balaji Events Logo */}
-                <div className="flex items-center justify-center p-0.5">
+              <div>
+                <div className="inline-flex items-center justify-center bg-white/95 px-3.5 py-1.5 rounded-xl shadow-md border border-[#D4AF37]/50 gap-3 sm:gap-4">
+                  {/* Shree Balaji Events Logo */}
                   <img
                     src="/assets/images/organizer_shree_balaji_clean.png"
                     alt="Shree Balaji Events LLP"
-                    className="h-11 sm:h-13 md:h-14 w-auto object-contain transition-transform duration-200 hover:scale-105"
+                    className="h-10 sm:h-12 w-auto object-contain transition-transform duration-200 hover:scale-105"
                     title="Shree Balaji Events LLP"
                   />
-                </div>
 
-                {/* Vertical Divider */}
-                <div className="h-9 w-[1px] bg-[#D4AF37]/40 shrink-0" />
+                  {/* Vertical Divider */}
+                  <div className="h-8 w-[1px] bg-[#D4AF37]/40 shrink-0" />
 
-                {/* Astha Marketing Logo */}
-                <div className="flex items-center justify-center p-0.5">
+                  {/* Astha Marketing Logo */}
                   <img
                     src="/assets/images/organizer_astha_clean.png"
                     alt="Astha Marketing Events Advertising"
-                    className="h-7 sm:h-8 md:h-9 w-auto object-contain transition-transform duration-200 hover:scale-105"
+                    className="h-7 sm:h-8 w-auto object-contain transition-transform duration-200 hover:scale-105"
                     title="Astha Marketing Events Advertising"
                   />
                 </div>
