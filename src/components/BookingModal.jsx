@@ -94,12 +94,12 @@ export default function BookingModal({ isOpen, onClose, selectedPass = null }) {
                     key={pass.id}
                     type="button"
                     onClick={() => setActivePass(pass)}
-                    className={`py-2 px-2.5 rounded-xl text-xs font-extrabold border transition-all text-center cursor-pointer ${currentPass.id === pass.id
+                    className={`py-2 px-2.5 rounded-xl text-xs font-extrabold border transition-all text-center cursor-pointer uppercase ${currentPass.id === pass.id
                         ? 'bg-[#D4AF37] text-[#0A060A] border-[#D4AF37] shadow-md'
                         : 'bg-[#2D0A22] text-[#F3EAD9] border-[#D4AF37]/30 hover:border-[#D4AF37]'
                       }`}
                   >
-                    {pass.name.split(' ')[0]}
+                    {pass.categoryLabel || pass.name}
                   </button>
                 ))}
               </div>

@@ -18,6 +18,7 @@ export const PASSES = [
   {
     id: "solo",
     name: "SOLO PASS",
+    categoryLabel: "INDIVIDUAL",
     stubLabel: "SOLO",
     price: 999,
     formattedPrice: "₹999",
@@ -27,6 +28,7 @@ export const PASSES = [
   {
     id: "couple",
     name: "2 PERSON ENTRY",
+    categoryLabel: "DUO PAIR",
     stubLabel: "2 PERSON",
     price: 1799,
     formattedPrice: "₹1,799",
@@ -36,6 +38,7 @@ export const PASSES = [
   {
     id: "group",
     name: "YOUR TRIBE PASS (20 PEOPLE)",
+    categoryLabel: "TRIBE PASS",
     stubLabel: "TRIBE",
     price: 16999,
     formattedPrice: "₹16,999",
