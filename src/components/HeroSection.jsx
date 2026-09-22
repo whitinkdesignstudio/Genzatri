@@ -4,7 +4,7 @@ export default function HeroSection({ onBookClick }) {
   return (
     <section
       id="hero"
-      className="relative w-full pt-16 sm:pt-20 md:pt-24 pb-0 bg-[#2D0A22] overflow-hidden flex flex-col items-center justify-center"
+      className="relative w-full pt-20 sm:pt-24 md:pt-28 lg:pt-32 pb-0 bg-[#2D0A22] overflow-hidden flex flex-col items-center justify-center"
     >
       {/* Banner 1: Atrangi Band Royal Navratri Garba Festival Banner - Full Width Edge-to-Edge */}
       <div className="relative w-full p-0 m-0 leading-none">
