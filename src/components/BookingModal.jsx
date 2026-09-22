@@ -130,42 +130,33 @@ export default function BookingModal({ isOpen, onClose, selectedPass = null }) {
               <label className="block text-xs font-extrabold tracking-wider text-[#D4AF37] uppercase text-center">
                 BOOK DIRECTLY ON OFFICIAL PLATFORMS:
               </label>
-              <div className="grid grid-cols-2 gap-2">
+              <div className="grid grid-cols-3 gap-2">
                 <a
                   href={TICKET_URLS.bookmyshow}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-white hover:bg-[#FFF5D6] py-2 px-3 rounded-xl border border-[#D4AF37] flex items-center justify-center h-10 transition-transform hover:scale-105"
+                  className="bg-white hover:bg-[#FFF5D6] py-2 px-2.5 rounded-xl border border-[#D4AF37] flex items-center justify-center h-10 transition-transform hover:scale-105"
                   title="Book on BookMyShow"
                 >
-                  <img src="/assets/images/logo_bookmyshow_perfect.png" alt="BookMyShow" className="h-6 w-auto object-contain" />
-                </a>
-                <a
-                  href={TICKET_URLS.allevents}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="bg-white hover:bg-[#FFF5D6] py-2 px-3 rounded-xl border border-[#D4AF37] flex items-center justify-center h-10 transition-transform hover:scale-105"
-                  title="Book on AllEvents"
-                >
-                  <img src="/assets/images/logo_allevents_horizontal.png" alt="AllEvents" className="h-6 w-auto object-contain" />
+                  <img src="/assets/images/logo_bookmyshow_perfect.png" alt="BookMyShow" className="h-5.5 w-auto object-contain" />
                 </a>
                 <a
                   href={TICKET_URLS.district}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-white hover:bg-[#FFF5D6] py-2 px-3 rounded-xl border border-[#D4AF37] flex items-center justify-center h-10 transition-transform hover:scale-105"
+                  className="bg-white hover:bg-[#FFF5D6] py-2 px-2.5 rounded-xl border border-[#D4AF37] flex items-center justify-center h-10 transition-transform hover:scale-105"
                   title="Book on District by Zomato"
                 >
-                  <img src="/assets/images/logo_district_perfect.png" alt="District" className="h-8 w-auto object-contain" />
+                  <img src="/assets/images/logo_district_perfect.png" alt="District" className="h-7 w-auto object-contain" />
                 </a>
                 <a
                   href={TICKET_URLS.meepass}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-white hover:bg-[#FFF5D6] py-2 px-3 rounded-xl border border-[#D4AF37] flex items-center justify-center h-10 transition-transform hover:scale-105"
+                  className="bg-white hover:bg-[#FFF5D6] py-2 px-2.5 rounded-xl border border-[#D4AF37] flex items-center justify-center h-10 transition-transform hover:scale-105"
                   title="Book on MiPass"
                 >
-                  <img src="/assets/images/logo_mepass_perfect.png" alt="MiPass" className="h-6 w-auto object-contain" />
+                  <img src="/assets/images/logo_mepass_perfect.png" alt="MiPass" className="h-5.5 w-auto object-contain" />
                 </a>
               </div>
             </div>
