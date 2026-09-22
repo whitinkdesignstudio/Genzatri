@@ -18,43 +18,43 @@ export default function TicketPartnerBar() {
         {/* 3 Partner Logo Cards Grid */}
         <div className="grid grid-cols-3 items-center gap-2.5 sm:gap-4 w-full sm:w-auto">
           {/* 1. MEE PASS (Visual Logo Only - 1st) */}
-          <div 
+          <div
             className="bg-white px-2.5 sm:px-4 py-2 sm:py-2.5 rounded-xl sm:rounded-2xl shadow-md border-2 border-[#D4AF37]/40 flex items-center justify-center h-12 sm:h-14 md:h-16 w-28 sm:w-36 md:w-40 select-none mx-auto"
-            title="MiPass Partner"
+            title="MePass Partner"
           >
-            <img 
-              src="/assets/images/logo_mepass_perfect.png" 
-              alt="MiPass" 
+            <img
+              src="/assets/images/logo_mepass_perfect.png"
+              alt="MePass"
               className="h-6 sm:h-8 md:h-9 w-auto max-w-[90%] max-h-[85%] object-contain block"
             />
           </div>
 
           {/* 2. BookMyShow (Active Link - 2nd) */}
-          <a 
-            href="https://in.bookmyshow.com/activities/genzatri-ahmedabad-s-ac-dome/ET00517258" 
-            target="_blank" 
+          <a
+            href="https://in.bookmyshow.com/activities/genzatri-ahmedabad-s-ac-dome/ET00517258"
+            target="_blank"
             rel="noopener noreferrer"
             className="bg-white px-2.5 sm:px-4 py-2 sm:py-2.5 rounded-xl sm:rounded-2xl shadow-md border-2 border-[#D4AF37]/60 hover:border-[#D4AF37] hover:scale-105 transition-all duration-300 flex items-center justify-center h-12 sm:h-14 md:h-16 cursor-pointer w-28 sm:w-36 md:w-40 select-none mx-auto"
             title="Book on BookMyShow"
           >
-            <img 
-              src="/assets/images/logo_bookmyshow_perfect.png" 
-              alt="BookMyShow" 
+            <img
+              src="/assets/images/logo_bookmyshow_perfect.png"
+              alt="BookMyShow"
               className="h-6 sm:h-8 md:h-9 w-auto max-w-[90%] max-h-[85%] object-contain block select-none"
             />
           </a>
 
           {/* 3. District by Zomato (Active Link - 3rd) */}
-          <a 
-            href="https://www.district.in/events/genzatri-ahmedabads-ac-dome-oct16-2026-buy-tickets" 
-            target="_blank" 
+          <a
+            href="https://www.district.in/events/genzatri-ahmedabads-ac-dome-oct16-2026-buy-tickets"
+            target="_blank"
             rel="noopener noreferrer"
             className="bg-white px-2 sm:px-3 py-1.5 sm:py-2 rounded-xl sm:rounded-2xl shadow-md border-2 border-[#D4AF37]/60 hover:border-[#D4AF37] hover:scale-105 transition-all duration-300 flex items-center justify-center h-12 sm:h-14 md:h-16 cursor-pointer w-28 sm:w-36 md:w-40 select-none mx-auto"
             title="Book on District by Zomato"
           >
-            <img 
-              src="/assets/images/logo_district_perfect.png" 
-              alt="District by Zomato" 
+            <img
+              src="/assets/images/logo_district_perfect.png"
+              alt="District by Zomato"
               className="h-8 sm:h-11 md:h-13 w-auto max-w-[95%] max-h-[92%] object-contain block select-none transform scale-110"
             />
           </a>
