@@ -23,7 +23,7 @@ export default function HeroSection({ onBookClick }) {
 
       {/* Main Banner Container - Uncropped Responsive Display */}
       <div className="relative w-full flex items-center justify-center bg-[#2D0A22] overflow-hidden z-10">
-        
+
         {/* Full Banner Image (object-contain guarantees complete visibility without cropping) */}
         <img
           src="/assets/images/main_banner_hero.png"

@@ -56,34 +56,11 @@ export default function Header({ onBookClick }) {
           </button>
         </nav>
 
-        {/* Far Right: ORGANISED BY Organizers Logos */}
-        <div className="flex items-center space-x-4">
-          <div className="hidden sm:flex items-center gap-3 pl-2 sm:pl-4 border-l border-[#D4AF37]/30">
-            <span className="text-[9px] sm:text-[10px] font-black tracking-[0.2em] text-[#D4AF37] uppercase leading-tight text-right whitespace-nowrap">
-              ORGANISED BY
-            </span>
-            <div className="bg-white/95 px-3 sm:px-4 py-1.5 rounded-xl shadow-md border border-[#D4AF37]/50 flex items-center gap-3">
-              {/* Shree Balaji Events Logo */}
-              <img
-                src="/assets/images/organizer_shree_balaji_clean.png"
-                alt="Shree Balaji Events LLP"
-                className="h-8 sm:h-9 md:h-10 w-auto object-contain transition-transform duration-200 hover:scale-105"
-                title="Shree Balaji Events LLP"
-              />
-              {/* Astha Marketing Logo */}
-              <img
-                src="/assets/images/organizer_astha_clean.png"
-                alt="Astha Marketing Events Advertising"
-                className="h-8 sm:h-9 md:h-10 w-auto object-contain transition-transform duration-200 hover:scale-105"
-                title="Astha Marketing Events Advertising"
-              />
-            </div>
-          </div>
-
-          {/* Mobile Toggle */}
+        {/* Far Right: Mobile Toggle */}
+        <div className="flex items-center space-x-4 lg:hidden">
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="lg:hidden p-2 rounded-lg text-[#D4AF37] hover:bg-[#120A14] transition-colors"
+            className="p-2 rounded-lg text-[#D4AF37] hover:bg-[#120A14] transition-colors"
             aria-label="Toggle Navigation Menu"
           >
             {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
@@ -114,25 +91,6 @@ export default function Header({ onBookClick }) {
           >
             BOOK TICKETS
           </button>
-
-          {/* Mobile Organised By */}
-          <div className="pt-3 border-t border-[#D4AF37]/20 flex items-center justify-between">
-            <span className="text-xs font-black tracking-widest text-[#D4AF37] uppercase">
-              ORGANISED BY:
-            </span>
-            <div className="bg-white px-3 py-1.5 rounded-xl shadow-md border border-[#D4AF37]/50 flex items-center gap-3">
-              <img
-                src="/assets/images/organizer_shree_balaji_clean.png"
-                alt="Shree Balaji Events LLP"
-                className="h-8 w-auto object-contain"
-              />
-              <img
-                src="/assets/images/organizer_astha_clean.png"
-                alt="Astha Marketing"
-                className="h-8 w-auto object-contain"
-              />
-            </div>
-          </div>
         </div>
       )}
     </header>

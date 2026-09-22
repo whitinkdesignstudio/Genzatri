@@ -57,32 +57,57 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Column 2 & 3: EXPLORE & COMMUNITY (2-Column Grid on Mobile, 3 Cols on Desktop) */}
-          <div className="md:col-span-3 grid grid-cols-2 gap-4 sm:gap-6 pt-1 md:pt-0">
-            {/* EXPLORE */}
-            <div className="space-y-2.5">
-              <h4 className="text-xs font-black tracking-[0.25em] text-[#D4AF37] uppercase">
-                EXPLORE
-              </h4>
-              <ul className="space-y-1.5 text-xs font-semibold text-[#F3EAD9]/80">
-                <li><a href="#hero" className="hover:text-[#D4AF37] transition-colors">Home</a></li>
-                <li><a href="#tickets" className="hover:text-[#D4AF37] transition-colors">Passes & Tickets</a></li>
-                <li><a href="#lineup" className="hover:text-[#D4AF37] transition-colors">Artist Lineup</a></li>
-                <li><a href="#about" className="hover:text-[#D4AF37] transition-colors">Why Choose Us</a></li>
-              </ul>
+          {/* Column 2 & 3: EXPLORE & COMMUNITY + ORGANISED BY */}
+          <div className="md:col-span-3 flex flex-col justify-between space-y-5 pt-1 md:pt-0">
+            {/* Top: 2-Column Grid for EXPLORE & COMMUNITY */}
+            <div className="grid grid-cols-2 gap-4 sm:gap-6">
+              {/* EXPLORE */}
+              <div className="space-y-2.5">
+                <h4 className="text-xs font-black tracking-[0.25em] text-[#D4AF37] uppercase">
+                  EXPLORE
+                </h4>
+                <ul className="space-y-1.5 text-xs font-semibold text-[#F3EAD9]/80">
+                  <li><a href="#hero" className="hover:text-[#D4AF37] transition-colors">Home</a></li>
+                  <li><a href="#tickets" className="hover:text-[#D4AF37] transition-colors">Passes & Tickets</a></li>
+                  <li><a href="#lineup" className="hover:text-[#D4AF37] transition-colors">Artist Lineup</a></li>
+                  <li><a href="#about" className="hover:text-[#D4AF37] transition-colors">Why Choose Us</a></li>
+                </ul>
+              </div>
+
+              {/* COMMUNITY */}
+              <div className="space-y-2.5">
+                <h4 className="text-xs font-black tracking-[0.25em] text-[#D4AF37] uppercase">
+                  COMMUNITY
+                </h4>
+                <ul className="space-y-1.5 text-xs font-semibold text-[#F3EAD9]/80">
+                  <li><a href="#tickets" className="hover:text-[#D4AF37] transition-colors">Terms & Conditions</a></li>
+                  <li><a href="#faqs" className="hover:text-[#D4AF37] transition-colors">Facing Issues</a></li>
+                  <li><a href="#faqs" className="hover:text-[#D4AF37] transition-colors">FAQs</a></li>
+                  <li><a href="#gallery" className="hover:text-[#D4AF37] transition-colors">Gallery</a></li>
+                </ul>
+              </div>
             </div>
 
-            {/* COMMUNITY */}
-            <div className="space-y-2.5">
+            {/* Bottom: ORGANISED BY (Underneath EXPLORE & COMMUNITY) */}
+            <div className="pt-3 border-t border-[#D4AF37]/20 space-y-2">
               <h4 className="text-xs font-black tracking-[0.25em] text-[#D4AF37] uppercase">
-                COMMUNITY
+                ORGANISED BY
               </h4>
-              <ul className="space-y-1.5 text-xs font-semibold text-[#F3EAD9]/80">
-                <li><a href="#tickets" className="hover:text-[#D4AF37] transition-colors">Terms & Conditions</a></li>
-                <li><a href="#faqs" className="hover:text-[#D4AF37] transition-colors">Facing Issues</a></li>
-                <li><a href="#faqs" className="hover:text-[#D4AF37] transition-colors">FAQs</a></li>
-                <li><a href="#gallery" className="hover:text-[#D4AF37] transition-colors">Gallery</a></li>
-              </ul>
+              <div className="inline-flex bg-white/95 px-3.5 sm:px-4 py-2 rounded-xl shadow-md border border-[#D4AF37]/50 items-center gap-3 sm:gap-4 max-w-full">
+                <img
+                  src="/assets/images/organizer_shree_balaji_clean.png"
+                  alt="Shree Balaji Events LLP"
+                  className="h-7 sm:h-9 w-auto object-contain transition-transform duration-200 hover:scale-105"
+                  title="Shree Balaji Events LLP"
+                />
+                <div className="w-px h-6 bg-gray-300 shrink-0" />
+                <img
+                  src="/assets/images/organizer_astha_clean.png"
+                  alt="Astha Marketing Events Advertising"
+                  className="h-7 sm:h-9 w-auto object-contain transition-transform duration-200 hover:scale-105"
+                  title="Astha Marketing Events Advertising"
+                />
+              </div>
             </div>
           </div>
 
