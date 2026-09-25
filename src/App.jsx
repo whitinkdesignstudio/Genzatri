@@ -47,27 +47,17 @@ export default function App() {
         {/* 3. Countdown Timer & Event Highlights (Merged Royal Banner) */}
         <CountdownTimer />
 
-        {/* 4. Venue & Location Full Width Banner */}
-        <DateVenueBanner />
-
-        {/* 5. GENZATRI AC Dome Garba Main Banner (Placed directly above Experience AC Dome Garba Section) */}
-        <div className="relative w-full bg-[#2D0A22] overflow-hidden z-10 border-t border-[#D4AF37]/30">
-          <img
-            src="/assets/images/main_banner_hero.png"
-            alt="GENZATRI AC DOME GARBA - From Sunset To Sunrise In AC Dome"
-            loading="eager"
-            className="w-full h-auto block select-none"
-          />
-        </div>
-
-        {/* 6. Experience AC Dome Garba Section (Matching User Reference) */}
-        <ExperienceAcDomeSection />
-
-        {/* 6. Choose Your Pass (Inner pass banner, consistent gold buttons) */}
+        {/* 4. Choose Your Pass & Tickets Section (Placed right after FIRST EVER BOLLYWOOD BAND LIVE GARBA IN AC DOME) */}
         <ChooseYourPass onBookPass={(pass) => handleOpenBooking(pass)} />
 
-        {/* 7. Ticket Partner Bar (Placed right below CHOOSE YOUR NAVRATRI VIBE) */}
+        {/* 5. Ticket Partner Bar */}
         <TicketPartnerBar />
+
+        {/* 6. Venue & Location Full Width Banner */}
+        <DateVenueBanner />
+
+        {/* 7. Experience AC Dome Garba Section */}
+        <ExperienceAcDomeSection />
 
         {/* 7. Event Concept Section (Four Nights. One Dome. Endless Energy.) - Hidden for now */}
         {/* <EventConceptSection /> */}

@@ -22,11 +22,11 @@ export default function Header({ onBookClick }) {
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled
-          ? 'bg-[#521C42]/95 backdrop-blur-md border-b border-[#D4AF37]/40 py-2 shadow-xl shadow-[#380E2D]/50'
+          ? 'bg-[#521C42]/95 backdrop-blur-md border-b border-[#D4AF37]/40 py-1.5 shadow-xl shadow-[#380E2D]/50'
           : 'bg-[#521C42]/90 backdrop-blur-sm border-b border-[#D4AF37]/30 py-2'
         }`}
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-13 sm:h-15">
 
         {/* Left: Unified Brand Logo */}
         <a href="#hero" className="flex items-center">

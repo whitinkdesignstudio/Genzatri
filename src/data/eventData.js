@@ -91,6 +91,12 @@ export const FEATURES = [
   },
   {
     id: 6,
+    title: "LIVE DJ & BOLLYWOOD BEATS",
+    subtitle: "Late night explosive party.",
+    image: "/assets/images/dj_bollywood_beats.jpg"
+  },
+  {
+    id: 7,
     title: "16 - 19 OCTOBER 2026",
     subtitle: "Mark your dates.",
     image: "/assets/images/ac_dome_garba.jpg"

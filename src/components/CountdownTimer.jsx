@@ -47,9 +47,9 @@ export default function CountdownTimer() {
       <div className="max-w-5xl mx-auto flex flex-col items-center text-center space-y-7 sm:space-y-9 relative z-10">
 
         {/* 1. Gold Typography Header */}
-        <div className="space-y-2 text-center">
-          <h2 className="font-serif-display text-xl sm:text-3xl md:text-4xl lg:text-[44px] font-black tracking-[0.06em] sm:tracking-[0.1em] text-transparent bg-clip-text bg-gradient-to-r from-[#F5E096] via-[#D4AF37] to-[#F5E096] uppercase drop-shadow-[0_2px_14px_rgba(212,175,55,0.35)]">
-            BOLLYWOOD THEME • AC DOME GARBA
+        <div className="space-y-2 text-center max-w-4xl mx-auto px-2">
+          <h2 className="font-serif-display text-lg sm:text-2xl md:text-3xl lg:text-[38px] font-black tracking-[0.04em] sm:tracking-[0.08em] text-transparent bg-clip-text bg-gradient-to-r from-[#F5E096] via-[#D4AF37] to-[#F5E096] uppercase drop-shadow-[0_2px_14px_rgba(212,175,55,0.35)] leading-tight">
+            FIRST EVER BOLLYWOOD BAND LIVE GARBA IN AC DOME
           </h2>
 
           <p className="text-[11px] sm:text-xs md:text-sm font-extrabold tracking-[0.28em] sm:tracking-[0.32em] text-[#F3EAD9]/85 uppercase">

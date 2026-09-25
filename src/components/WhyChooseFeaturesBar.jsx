@@ -98,6 +98,17 @@ const SolidCalendarIcon = ({ className = "w-12 h-12 text-[#F5E096]" }) => (
   </svg>
 );
 
+// 7. Bold Solid DJ Disc & Headphones
+const SolidDjIcon = ({ className = "w-12 h-12 text-[#F5E096]" }) => (
+  <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
+    <circle cx="12" cy="12" r="9" fill="currentColor" fillOpacity="0.2" strokeWidth="2" />
+    <path d="M6 12a6 6 0 0 1 12 0" strokeWidth="2.5" />
+    <rect x="4" y="11" width="3.5" height="6" rx="1.5" fill="currentColor" />
+    <rect x="16.5" y="11" width="3.5" height="6" rx="1.5" fill="currentColor" />
+    <circle cx="12" cy="12" r="2" fill="currentColor" stroke="none" />
+  </svg>
+);
+
 export default function WhyChooseFeaturesBar() {
   const features = [
     {
@@ -111,7 +122,7 @@ export default function WhyChooseFeaturesBar() {
     {
       id: 2,
       icon: <SolidUsersIcon className="w-11 h-11 sm:w-13 sm:h-13 text-[#F5E096]" />,
-      title: "5,000+",
+      title: "8,000+",
       titleLine2: "Khelaiyas",
       desc1: "Bigger energy.",
       desc2: "Bigger vibes."
@@ -142,6 +153,14 @@ export default function WhyChooseFeaturesBar() {
     },
     {
       id: 6,
+      icon: <SolidDjIcon className="w-11 h-11 sm:w-13 sm:h-13 text-[#F5E096]" />,
+      title: "LIVE DJ &",
+      titleLine2: "BOLLYWOOD BEATS",
+      desc1: "Non-stop party vibes",
+      desc2: "Late night energy"
+    },
+    {
+      id: 7,
       icon: <SolidCalendarIcon className="w-11 h-11 sm:w-13 sm:h-13 text-[#F5E096]" />,
       title: "16 - 19",
       titleLine2: "OCTOBER 2026",
@@ -205,9 +224,9 @@ export default function WhyChooseFeaturesBar() {
           </p>
         </div>
 
-        {/* 6 Feature Columns Arranged Responsively */}
+        {/* 7 Feature Columns Arranged Responsively */}
         <div className="w-full">
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-4 sm:gap-6 w-full items-start">
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-7 gap-4 sm:gap-6 w-full items-start">
             {features.map((feature, index) => (
               <React.Fragment key={feature.id}>
                 {/* Feature Item Column */}

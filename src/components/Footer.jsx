@@ -89,28 +89,28 @@ export default function Footer() {
             </div>
 
             {/* ORGANISED BY Section directly under EXPLORE & COMMUNITY */}
-            <div className="space-y-2 pt-2.5 border-t border-[#D4AF37]/20">
+            <div className="space-y-2 pt-3 border-t border-[#D4AF37]/20">
               <h4 className="text-xs font-black tracking-[0.25em] text-[#D4AF37] uppercase">
                 ORGANISED BY
               </h4>
               <div>
-                <div className="inline-flex items-center justify-center bg-white/95 px-3.5 sm:px-4 py-2 rounded-xl shadow-md border border-[#D4AF37]/60 h-11 sm:h-13 gap-3 sm:gap-4">
-                  {/* Shree Balaji Events Logo - Sized to match BookMyShow logo */}
+                <div className="inline-flex items-center justify-center bg-white px-4 sm:px-6 py-2.5 sm:py-3 rounded-2xl shadow-lg border-2 border-[#D4AF37]/60 h-16 sm:h-20 md:h-22 gap-4 sm:gap-6">
+                  {/* Shree Balaji Events Logo - Significantly Enlarged for High Visibility */}
                   <img
                     src="/assets/images/organizer_shree_balaji_clean.png"
                     alt="Shree Balaji Events LLP"
-                    className="h-7 sm:h-9 w-auto object-contain max-h-[85%] transition-transform duration-200 hover:scale-105 select-none"
+                    className="h-11 sm:h-15 md:h-16 w-auto object-contain max-h-[92%] transition-transform duration-200 hover:scale-105 select-none"
                     title="Shree Balaji Events LLP"
                   />
 
-                  {/* Vertical Divider */}
-                  <div className="h-6 sm:h-8 w-[1px] bg-[#D4AF37]/40 shrink-0" />
+                  {/* Vertical Gold Divider */}
+                  <div className="h-9 sm:h-13 w-[1.5px] bg-[#D4AF37]/50 shrink-0" />
 
-                  {/* Astha Marketing Logo - Sized to match BookMyShow logo */}
+                  {/* Astha Marketing Logo - Significantly Enlarged for High Visibility */}
                   <img
                     src="/assets/images/organizer_astha_clean.png"
                     alt="Astha Marketing Events Advertising"
-                    className="h-6 sm:h-8 w-auto object-contain max-h-[85%] transition-transform duration-200 hover:scale-105 select-none"
+                    className="h-10 sm:h-14 md:h-15 w-auto object-contain max-h-[92%] transition-transform duration-200 hover:scale-105 select-none"
                     title="Astha Marketing Events Advertising"
                   />
                 </div>

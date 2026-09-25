@@ -37,16 +37,16 @@ export default function WhyChooseSection() {
           </p>
         </div>
 
-        {/* 6 Feature Cards Grid */}
-        <div className="grid grid-cols-1 xs:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 sm:gap-6 items-stretch">
+        {/* 7 Feature Cards Grid */}
+        <div className="grid grid-cols-1 xs:grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-7 gap-3.5 sm:gap-4 items-stretch">
           {FEATURES.map((feature) => (
             <Card
               key={feature.id}
               variant="purple"
-              className="flex flex-col items-center text-center justify-between space-y-4 hover:border-[#D4AF37] group transition-all duration-300 overflow-hidden p-4 bg-[#23071A]/80 backdrop-blur-sm"
+              className="flex flex-col items-center text-center justify-between space-y-3 hover:border-[#D4AF37] group transition-all duration-300 overflow-hidden p-3 sm:p-3.5 bg-[#23071A]/80 backdrop-blur-sm shadow-md hover:shadow-[0_4px_20px_rgba(212,175,55,0.25)]"
             >
               {/* Feature Image Frame */}
-              <div className="w-full h-32 rounded-xl overflow-hidden border border-[#D4AF37]/40 relative group-hover:border-[#D4AF37] transition-all">
+              <div className="w-full h-28 sm:h-32 rounded-xl overflow-hidden border border-[#D4AF37]/40 relative group-hover:border-[#D4AF37] transition-all shrink-0">
                 <img
                   src={feature.image}
                   alt={feature.title}
@@ -57,11 +57,11 @@ export default function WhyChooseSection() {
               </div>
 
               {/* Title & Subtitle */}
-              <div className="space-y-1 flex-1 flex flex-col justify-center">
-                <h3 className="font-serif-display font-black text-sm text-[#F3EAD9] uppercase">
+              <div className="space-y-1 flex-1 flex flex-col justify-center min-h-[48px]">
+                <h3 className="font-serif-display font-black text-xs sm:text-sm text-[#F3EAD9] uppercase leading-tight">
                   {feature.title}
                 </h3>
-                <p className="text-[11px] font-semibold text-[#D4AF37]">
+                <p className="text-[10px] sm:text-[11px] font-semibold text-[#D4AF37] leading-tight">
                   {feature.subtitle}
                 </p>
               </div>
