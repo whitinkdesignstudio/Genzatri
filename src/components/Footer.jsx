@@ -89,11 +89,11 @@ export default function Footer() {
             </div>
 
             {/* ORGANISED BY Section */}
-            <div className="space-y-2 pt-3 border-t border-[#D4AF37]/20">
-              <h4 className="text-xs font-black tracking-[0.2em] text-[#D4AF37] uppercase">
-                ORGANISED BY
-              </h4>
-              <div className="w-full">
+            <div className="pt-3 border-t border-[#D4AF37]/20 flex flex-col items-start">
+              <div className="inline-flex flex-col items-center max-w-full">
+                <h4 className="text-xs font-black tracking-[0.2em] text-[#D4AF37] uppercase text-center pb-2">
+                  ORGANISED BY
+                </h4>
                 <div className="inline-flex items-center justify-center bg-white px-2.5 sm:px-3.5 py-1.5 sm:py-2 rounded-xl shadow-lg border-2 border-[#D4AF37]/60 h-12 sm:h-14 gap-2.5 sm:gap-3 max-w-full overflow-hidden">
                   {/* Shree Balaji Events Logo */}
                   <img
