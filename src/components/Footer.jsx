@@ -31,10 +31,10 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto space-y-10">
 
         {/* Top Section */}
-        <div className="grid grid-cols-1 md:grid-cols-12 gap-6 sm:gap-8 items-start justify-between">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8 items-start justify-between">
 
-          {/* Column 1: Logo & Summary (4 Cols on desktop, 5 on tablet) */}
-          <div className="md:col-span-5 lg:col-span-4 space-y-3.5">
+          {/* Column 1: Logo & Summary */}
+          <div className="space-y-3.5">
             <Logo size="lg" />
 
             <p className="text-xs text-[#F3EAD9]/70 leading-relaxed max-w-sm pt-0.5">
@@ -57,13 +57,13 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Column 2 & 3: EXPLORE & COMMUNITY & ORGANISED BY (4 Cols on Desktop, 7 on tablet) */}
-          <div className="md:col-span-7 lg:col-span-4 space-y-4 pt-1 md:pt-0">
+          {/* Column 2: EXPLORE, COMMUNITY & ORGANISED BY */}
+          <div className="space-y-4 pt-1 md:pt-0">
             {/* EXPLORE & COMMUNITY Grid */}
-            <div className="grid grid-cols-2 gap-4 sm:gap-6">
+            <div className="grid grid-cols-2 gap-3 sm:gap-4">
               {/* EXPLORE */}
-              <div className="space-y-2.5">
-                <h4 className="text-xs font-black tracking-[0.25em] text-[#D4AF37] uppercase">
+              <div className="space-y-2">
+                <h4 className="text-xs font-black tracking-[0.2em] text-[#D4AF37] uppercase">
                   EXPLORE
                 </h4>
                 <ul className="space-y-1.5 text-xs font-semibold text-[#F3EAD9]/80">
@@ -75,8 +75,8 @@ export default function Footer() {
               </div>
 
               {/* COMMUNITY */}
-              <div className="space-y-2.5">
-                <h4 className="text-xs font-black tracking-[0.25em] text-[#D4AF37] uppercase">
+              <div className="space-y-2">
+                <h4 className="text-xs font-black tracking-[0.2em] text-[#D4AF37] uppercase">
                   COMMUNITY
                 </h4>
                 <ul className="space-y-1.5 text-xs font-semibold text-[#F3EAD9]/80">
@@ -88,29 +88,29 @@ export default function Footer() {
               </div>
             </div>
 
-            {/* ORGANISED BY Section directly under EXPLORE & COMMUNITY */}
+            {/* ORGANISED BY Section */}
             <div className="space-y-2 pt-3 border-t border-[#D4AF37]/20">
-              <h4 className="text-xs font-black tracking-[0.25em] text-[#D4AF37] uppercase">
+              <h4 className="text-xs font-black tracking-[0.2em] text-[#D4AF37] uppercase">
                 ORGANISED BY
               </h4>
               <div className="w-full">
-                <div className="inline-flex items-center justify-center bg-white px-3 sm:px-5 py-2 sm:py-2.5 rounded-2xl shadow-lg border-2 border-[#D4AF37]/60 h-14 sm:h-16 md:h-18 gap-3 sm:gap-4 max-w-full overflow-hidden">
+                <div className="inline-flex items-center justify-center bg-white px-2.5 sm:px-3.5 py-1.5 sm:py-2 rounded-xl shadow-lg border-2 border-[#D4AF37]/60 h-12 sm:h-14 gap-2.5 sm:gap-3 max-w-full overflow-hidden">
                   {/* Shree Balaji Events Logo */}
                   <img
                     src="/assets/images/organizer_shree_balaji_clean.png"
                     alt="Shree Balaji Events LLP"
-                    className="h-9 sm:h-11 md:h-12 w-auto max-w-[42%] max-h-[90%] object-contain transition-transform duration-200 hover:scale-105 select-none"
+                    className="h-7 sm:h-9 w-auto max-w-[40%] max-h-[90%] object-contain transition-transform duration-200 hover:scale-105 select-none"
                     title="Shree Balaji Events LLP"
                   />
 
                   {/* Vertical Gold Divider */}
-                  <div className="h-7 sm:h-9 w-[1.5px] bg-[#D4AF37]/50 shrink-0" />
+                  <div className="h-6 sm:h-7 w-[1.5px] bg-[#D4AF37]/50 shrink-0" />
 
                   {/* Astha Marketing Logo */}
                   <img
                     src="/assets/images/organizer_astha_clean.png"
                     alt="Astha Marketing Events Advertising"
-                    className="h-8 sm:h-10 md:h-11 w-auto max-w-[50%] max-h-[90%] object-contain transition-transform duration-200 hover:scale-105 select-none"
+                    className="h-6 sm:h-8 w-auto max-w-[48%] max-h-[90%] object-contain transition-transform duration-200 hover:scale-105 select-none"
                     title="Astha Marketing Events Advertising"
                   />
                 </div>
@@ -118,85 +118,85 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Column 4: TICKETS AVAILABLE ON & FOLLOW US ON (4 Cols on Desktop) */}
-          <div className="md:col-span-4 space-y-3.5 text-left pt-1 md:pt-0">
+          {/* Column 3: TICKETS AVAILABLE ON & FOLLOW US ON */}
+          <div className="space-y-3.5 text-left pt-1 md:pt-0">
             <div className="space-y-2">
-              <h4 className="text-xs font-black tracking-[0.25em] text-[#D4AF37] uppercase">
+              <h4 className="text-xs font-black tracking-[0.2em] text-[#D4AF37] uppercase">
                 TICKETS AVAILABLE ON
               </h4>
-              <p className="text-xs text-[#F3EAD9]/85 font-medium leading-relaxed">
+              <p className="text-[11px] sm:text-xs text-[#F3EAD9]/85 font-medium leading-relaxed">
                 Available on <span className="text-[#D4AF37] font-bold">MiPass</span>, <span className="text-[#D4AF37] font-bold">BookMyShow</span> & <span className="text-[#D4AF37] font-bold">District</span>
               </p>
 
-              {/* Grid of 3 Partner Logos (MiPass 1st, BookMyShow 2nd, District 3rd) */}
-              <div className="grid grid-cols-3 gap-2 sm:gap-2.5 pt-1">
-                {/* 1. MiPass (Visual Logo Only - 1st) */}
+              {/* Grid of 3 Partner Logos */}
+              <div className="grid grid-cols-3 gap-1.5 sm:gap-2 pt-1">
+                {/* 1. MiPass */}
                 <div 
-                  className="bg-white px-2 sm:px-3 py-1.5 rounded-xl shadow-md border border-[#D4AF37]/40 h-11 sm:h-13 flex items-center justify-center w-full select-none"
+                  className="bg-white px-1.5 sm:px-2 py-1 rounded-lg shadow-md border border-[#D4AF37]/40 h-10 sm:h-12 flex items-center justify-center w-full select-none"
                   title="MiPass Partner"
                 >
                   <img 
                     src="/assets/images/logo_mepass_perfect.png" 
                     alt="MiPass" 
-                    className="h-6 sm:h-8 w-auto max-w-[90%] max-h-[85%] object-contain block"
+                    className="h-5 sm:h-7 w-auto max-w-[90%] max-h-[85%] object-contain block"
                   />
                 </div>
 
-                {/* 2. BookMyShow (Active Link - 2nd) */}
+                {/* 2. BookMyShow */}
                 <a
                   href="https://in.bookmyshow.com/activities/genzatri-ahmedabad-s-ac-dome/ET00517258"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-white hover:bg-white px-2 sm:px-3 py-1.5 rounded-xl shadow-md border border-[#D4AF37]/60 hover:border-[#D4AF37] hover:scale-105 transition-all duration-200 h-11 sm:h-13 flex items-center justify-center w-full cursor-pointer"
+                  className="bg-white hover:bg-white px-1.5 sm:px-2 py-1 rounded-lg shadow-md border border-[#D4AF37]/60 hover:border-[#D4AF37] hover:scale-105 transition-all duration-200 h-10 sm:h-12 flex items-center justify-center w-full cursor-pointer"
                   title="Book tickets on BookMyShow"
                 >
                   <img 
                     src="/assets/images/logo_bookmyshow_perfect.png" 
                     alt="BookMyShow" 
-                    className="h-6 sm:h-8 w-auto max-w-[90%] max-h-[85%] object-contain block select-none"
+                    className="h-5 sm:h-7 w-auto max-w-[90%] max-h-[85%] object-contain block select-none"
                   />
                 </a>
 
-                {/* 3. District by Zomato (Active Link - 3rd) */}
+                {/* 3. District by Zomato */}
                 <a
                   href="https://www.district.in/events/genzatri-ahmedabads-ac-dome-oct16-2026-buy-tickets"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-white hover:bg-white px-1.5 sm:px-2.5 py-1.5 rounded-xl shadow-md border border-[#D4AF37]/60 hover:border-[#D4AF37] hover:scale-105 transition-all duration-200 h-11 sm:h-13 flex items-center justify-center w-full cursor-pointer"
+                  className="bg-white hover:bg-white px-1 sm:px-2 py-1 rounded-lg shadow-md border border-[#D4AF37]/60 hover:border-[#D4AF37] hover:scale-105 transition-all duration-200 h-10 sm:h-12 flex items-center justify-center w-full cursor-pointer"
                   title="Book on District by Zomato"
                 >
                   <img 
                     src="/assets/images/logo_district_perfect.png" 
                     alt="District by Zomato" 
-                    className="h-8 sm:h-10 md:h-11 w-auto max-w-[95%] max-h-[92%] object-contain block select-none transform scale-110"
+                    className="h-7 sm:h-9 w-auto max-w-[95%] max-h-[92%] object-contain block select-none transform scale-105"
                   />
                 </a>
               </div>
             </div>
 
-            {/* Follow Us On (Instagram & Facebook Only) */}
-            <div className="space-y-2 pt-2.5 border-t border-[#D4AF37]/20 flex items-center justify-between sm:justify-start sm:gap-6">
-              <h5 className="text-xs font-black tracking-[0.25em] text-[#D4AF37] uppercase">
+            {/* Follow Us On */}
+            <div className="space-y-2 pt-2 border-t border-[#D4AF37]/20 flex items-center justify-between sm:justify-start sm:gap-4">
+              <h5 className="text-xs font-black tracking-[0.2em] text-[#D4AF37] uppercase">
                 FOLLOW US ON
               </h5>
-              <div className="flex items-center space-x-3">
+              <div className="flex items-center space-x-2.5">
                 <a
                   href="https://instagram.com"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-[#2D0A22] border-2 border-[#D4AF37]/50 flex items-center justify-center text-[#D4AF37] hover:bg-[#D4AF37] hover:text-[#0A060A] transition-all duration-300 shadow-md hover:scale-110"
+                  className="w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-[#2D0A22] border-2 border-[#D4AF37]/50 flex items-center justify-center text-[#D4AF37] hover:bg-[#D4AF37] hover:text-[#0A060A] transition-all duration-300 shadow-md hover:scale-110"
                   aria-label="Instagram"
                 >
-                  <InstagramIcon className="w-4.5 h-4.5" />
+                  <InstagramIcon className="w-4 h-4" />
                 </a>
                 <a
                   href="https://facebook.com"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-[#2D0A22] border-2 border-[#D4AF37]/50 flex items-center justify-center text-[#D4AF37] hover:bg-[#D4AF37] hover:text-[#0A060A] transition-all duration-300 shadow-md hover:scale-110"
+                  className="w-8 h-8 sm:w-9 sm:h-9 rounded-full bg-[#2D0A22] border-2 border-[#D4AF37]/50 flex items-center justify-center text-[#D4AF37] hover:bg-[#D4AF37] hover:text-[#0A060A] transition-all duration-300 shadow-md hover:scale-110"
                   aria-label="Facebook"
                 >
-                  <FacebookIcon className="w-4.5 h-4.5" />
+                  <FacebookIcon className="w-4 h-4" />
                 </a>
               </div>
             </div>
