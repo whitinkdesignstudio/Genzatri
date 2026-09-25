@@ -33,8 +33,8 @@ export default function Footer() {
         {/* Top Section */}
         <div className="grid grid-cols-1 md:grid-cols-12 gap-6 sm:gap-8 items-start justify-between">
 
-          {/* Column 1: Logo & Summary (4 Cols on desktop) */}
-          <div className="md:col-span-4 space-y-3.5">
+          {/* Column 1: Logo & Summary (4 Cols on desktop, 5 on tablet) */}
+          <div className="md:col-span-5 lg:col-span-4 space-y-3.5">
             <Logo size="lg" />
 
             <p className="text-xs text-[#F3EAD9]/70 leading-relaxed max-w-sm pt-0.5">
@@ -57,8 +57,8 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Column 2 & 3: EXPLORE & COMMUNITY & ORGANISED BY (4 Cols on Desktop) */}
-          <div className="md:col-span-4 space-y-4 pt-1 md:pt-0">
+          {/* Column 2 & 3: EXPLORE & COMMUNITY & ORGANISED BY (4 Cols on Desktop, 7 on tablet) */}
+          <div className="md:col-span-7 lg:col-span-4 space-y-4 pt-1 md:pt-0">
             {/* EXPLORE & COMMUNITY Grid */}
             <div className="grid grid-cols-2 gap-4 sm:gap-6">
               {/* EXPLORE */}
@@ -93,24 +93,24 @@ export default function Footer() {
               <h4 className="text-xs font-black tracking-[0.25em] text-[#D4AF37] uppercase">
                 ORGANISED BY
               </h4>
-              <div>
-                <div className="inline-flex items-center justify-center bg-white px-4 sm:px-6 py-2.5 sm:py-3 rounded-2xl shadow-lg border-2 border-[#D4AF37]/60 h-16 sm:h-20 md:h-22 gap-4 sm:gap-6">
-                  {/* Shree Balaji Events Logo - Significantly Enlarged for High Visibility */}
+              <div className="w-full">
+                <div className="inline-flex items-center justify-center bg-white px-3 sm:px-5 py-2 sm:py-2.5 rounded-2xl shadow-lg border-2 border-[#D4AF37]/60 h-14 sm:h-16 md:h-18 gap-3 sm:gap-4 max-w-full overflow-hidden">
+                  {/* Shree Balaji Events Logo */}
                   <img
                     src="/assets/images/organizer_shree_balaji_clean.png"
                     alt="Shree Balaji Events LLP"
-                    className="h-11 sm:h-15 md:h-16 w-auto object-contain max-h-[92%] transition-transform duration-200 hover:scale-105 select-none"
+                    className="h-9 sm:h-11 md:h-12 w-auto max-w-[42%] max-h-[90%] object-contain transition-transform duration-200 hover:scale-105 select-none"
                     title="Shree Balaji Events LLP"
                   />
 
                   {/* Vertical Gold Divider */}
-                  <div className="h-9 sm:h-13 w-[1.5px] bg-[#D4AF37]/50 shrink-0" />
+                  <div className="h-7 sm:h-9 w-[1.5px] bg-[#D4AF37]/50 shrink-0" />
 
-                  {/* Astha Marketing Logo - Significantly Enlarged for High Visibility */}
+                  {/* Astha Marketing Logo */}
                   <img
                     src="/assets/images/organizer_astha_clean.png"
                     alt="Astha Marketing Events Advertising"
-                    className="h-10 sm:h-14 md:h-15 w-auto object-contain max-h-[92%] transition-transform duration-200 hover:scale-105 select-none"
+                    className="h-8 sm:h-10 md:h-11 w-auto max-w-[50%] max-h-[90%] object-contain transition-transform duration-200 hover:scale-105 select-none"
                     title="Astha Marketing Events Advertising"
                   />
                 </div>
